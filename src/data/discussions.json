@@ -1,16 +1,24 @@
 [
   {
     "type": "issue",
+    "title": "A user with no active password may not be able to set a new password.",
+    "repo": "puff-serverless",
+    "meta": "#108",
+    "time": "43m",
+    "url": "https://github.com/eustasy/puff-serverless/issues/108"
+  },
+  {
+    "type": "issue",
     "title": "Filtering of repos on open-source seems duplicated",
     "repo": "eustasy.org",
     "meta": "#9",
-    "time": "44m",
+    "time": "2h",
     "url": "https://github.com/eustasy/eustasy.org/issues/9"
   },
   {
     "type": "issue",
     "repo": "puff-serverless",
     "meta": "#107",
-    "time": "16h"
+    "time": "17h"
   }
 ]
