@@ -1,8 +1,16 @@
 [
   {
     "type": "issue",
+    "title": "Filtering of repos on open-source seems duplicated",
+    "repo": "eustasy.org",
+    "meta": "#9",
+    "time": "44m",
+    "url": "https://github.com/eustasy/eustasy.org/issues/9"
+  },
+  {
+    "type": "issue",
     "repo": "puff-serverless",
     "meta": "#107",
-    "time": "14h"
+    "time": "16h"
   }
 ]
