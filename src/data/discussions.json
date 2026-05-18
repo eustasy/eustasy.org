@@ -1,10 +1,26 @@
 [
   {
     "type": "issue",
+    "title": ".well-known redirects",
+    "repo": "puff-serverless",
+    "meta": "#111",
+    "time": "5h",
+    "url": "https://github.com/eustasy/puff-serverless/issues/111"
+  },
+  {
+    "type": "discussion",
+    "title": "A user with no active password may not be able to set a new password.",
+    "repo": "puff-serverless",
+    "meta": "1 reply",
+    "time": "5h",
+    "url": "https://github.com/eustasy/puff-serverless/issues/108"
+  },
+  {
+    "type": "issue",
     "title": "Deploy error on recent push.",
     "repo": "puff-serverless",
     "meta": "#110",
-    "time": "3h",
+    "time": "9h",
     "url": "https://github.com/eustasy/puff-serverless/issues/110"
   },
   {
@@ -12,29 +28,15 @@
     "title": "Password and 2fa can be bypassed by email one after the other, nullifying 2 factor auth.",
     "repo": "puff-serverless",
     "meta": "#109",
-    "time": "3h",
+    "time": "9h",
     "url": "https://github.com/eustasy/puff-serverless/issues/109"
-  },
-  {
-    "type": "issue",
-    "title": "A user with no active password may not be able to set a new password.",
-    "repo": "puff-serverless",
-    "meta": "#108",
-    "time": "8h",
-    "url": "https://github.com/eustasy/puff-serverless/issues/108"
   },
   {
     "type": "issue",
     "title": "Filtering of repos on open-source seems duplicated",
     "repo": "eustasy.org",
     "meta": "#9",
-    "time": "9h",
+    "time": "15h",
     "url": "https://github.com/eustasy/eustasy.org/issues/9"
-  },
-  {
-    "type": "issue",
-    "repo": "puff-serverless",
-    "meta": "#107",
-    "time": "1d"
   }
 ]
