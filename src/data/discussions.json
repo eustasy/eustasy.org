@@ -4,7 +4,7 @@
     "title": "Password and 2fa can be bypassed by email one after the other, nullifying 2 factor auth.",
     "repo": "puff-serverless",
     "meta": "1 reply",
-    "time": "3h",
+    "time": "5h",
     "url": "https://github.com/eustasy/puff-serverless/issues/109"
   },
   {
@@ -12,7 +12,7 @@
     "title": ".well-known redirects",
     "repo": "puff-serverless",
     "meta": "#111",
-    "time": "12h",
+    "time": "14h",
     "url": "https://github.com/eustasy/puff-serverless/issues/111"
   },
   {
@@ -20,7 +20,7 @@
     "title": "A user with no active password may not be able to set a new password.",
     "repo": "puff-serverless",
     "meta": "1 reply",
-    "time": "13h",
+    "time": "15h",
     "url": "https://github.com/eustasy/puff-serverless/issues/108"
   },
   {
@@ -28,7 +28,7 @@
     "title": "Deploy error on recent push.",
     "repo": "puff-serverless",
     "meta": "#110",
-    "time": "16h",
+    "time": "18h",
     "url": "https://github.com/eustasy/puff-serverless/issues/110"
   },
   {
@@ -36,7 +36,7 @@
     "title": "Filtering of repos on open-source seems duplicated",
     "repo": "eustasy.org",
     "meta": "#9",
-    "time": "23h",
+    "time": "1d",
     "url": "https://github.com/eustasy/eustasy.org/issues/9"
   }
 ]
