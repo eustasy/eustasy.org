@@ -50,15 +50,8 @@ import repos from '../data/repos.json';
             <ul class="filter-list" id="lang-filters"></ul>
           </div>
           <div class="filter-group">
-            <h3>Status <button id="clear-status" type="button">clear</button></h3>
+            <h3>Status <button id="reset-status" type="button">reset</button></h3>
             <ul class="filter-list" id="status-filters"></ul>
-          </div>
-          <div class="filter-group">
-            <h3>Show</h3>
-            <ul class="filter-list">
-              <li><label><input type="checkbox" id="show-archived" checked /><span class="lbl">Archived repos</span></label></li>
-              <li><label><input type="checkbox" id="show-meta" /><span class="lbl">Meta / config repos</span></label></li>
-            </ul>
           </div>
         </aside>
 
@@ -88,13 +81,13 @@ import repos from '../data/repos.json';
     archived: "Archived", deprecated: "Deprecated", eol: "End of life", meta: "Meta",
   };
   const STATUS_ORDER = ["active","alpha","stable","archived","deprecated","eol","meta"];
+  // Statuses hidden by default — user opts in via the Status filter.
+  const STATUS_OFF_BY_DEFAULT = new Set(["archived","deprecated","eol"]);
 
   const state = {
     query: "",
     langs: new Set(),
     statuses: new Set(),
-    showArchived: true,
-    showMeta: false,
     sort: "recent",
   };
 
@@ -122,6 +115,12 @@ import repos from '../data/repos.json';
   const langOrder = Object.keys(LANG_LABEL).filter(k => langCounts[k]);
   const statusOrder = STATUS_ORDER.filter(k => statusCounts[k]);
 
+  function setDefaultStatuses() {
+    state.statuses.clear();
+    statusOrder.forEach(k => { if (!STATUS_OFF_BY_DEFAULT.has(k)) state.statuses.add(k); });
+  }
+  setDefaultStatuses();
+
   function renderFilterList(elId, keys, labels, counts, set) {
     const el = document.getElementById(elId);
     el.innerHTML = keys.map(k => `
@@ -142,10 +141,8 @@ import repos from '../data/repos.json';
   renderFilterList("status-filters", statusOrder, STATUS_LABEL, statusCounts, state.statuses);
 
   function matches(r) {
-    if (!state.showArchived && (r.status === "archived" || r.status === "eol" || r.status === "deprecated")) return false;
-    if (!state.showMeta && r.meta) return false;
+    if (!state.statuses.has(r.status)) return false;
     if (state.langs.size && !r.langs.some(l => state.langs.has(l))) return false;
-    if (state.statuses.size && !state.statuses.has(r.status)) return false;
     if (state.query) {
       const q = state.query.toLowerCase();
       if (!r.name.toLowerCase().includes(q) && !r.desc.toLowerCase().includes(q)) return false;
@@ -167,7 +164,18 @@ import repos from '../data/repos.json';
     const chips = [];
     if (state.query) chips.push({ label: `“${state.query}”`, clear: () => { state.query = ""; document.getElementById("search").value = ""; }});
     [...state.langs].forEach(k => chips.push({ label: LANG_LABEL[k], clear: () => { state.langs.delete(k); document.querySelector(`#lang-filters input[data-key="${k}"]`).checked = false; }}));
-    [...state.statuses].forEach(k => chips.push({ label: STATUS_LABEL[k], clear: () => { state.statuses.delete(k); document.querySelector(`#status-filters input[data-key="${k}"]`).checked = false; }}));
+    // Status chips: only show deviations from default — added archived/eol/deprecated, or removed defaults.
+    statusOrder.forEach(k => {
+      const def = !STATUS_OFF_BY_DEFAULT.has(k);
+      const on = state.statuses.has(k);
+      if (on === def) return;
+      const prefix = on ? "+ " : "− ";
+      chips.push({ label: prefix + STATUS_LABEL[k], clear: () => {
+        if (on) state.statuses.delete(k); else state.statuses.add(k);
+        const cb = document.querySelector(`#status-filters input[data-key="${k}"]`);
+        if (cb) cb.checked = !on;
+      }});
+    });
     el.innerHTML = chips.map((c, i) => `<span class="chip">${escapeHTML(c.label)}<button data-i="${i}" aria-label="Remove ${escapeHTML(c.label)}"><svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M3 3l6 6M9 3l-6 6"/></svg></button></span>`).join("");
     el.querySelectorAll("button").forEach((b, i) => b.addEventListener("click", () => { chips[i].clear(); render(); }));
   }
@@ -210,28 +218,28 @@ import repos from '../data/repos.json';
 
   const searchEl = document.getElementById("search");
   searchEl.addEventListener("input", e => { state.query = e.target.value.trim(); render(); });
-  document.getElementById("show-archived").addEventListener("change", e => { state.showArchived = e.target.checked; render(); });
-  document.getElementById("show-meta").addEventListener("change", e => { state.showMeta = e.target.checked; render(); });
   document.getElementById("sort").addEventListener("change", e => { state.sort = e.target.value; render(); });
   document.getElementById("clear-langs").addEventListener("click", () => {
     state.langs.clear();
     document.querySelectorAll("#lang-filters input").forEach(cb => cb.checked = false);
     render();
   });
-  document.getElementById("clear-status").addEventListener("click", () => {
-    state.statuses.clear();
-    document.querySelectorAll("#status-filters input").forEach(cb => cb.checked = false);
+  function syncStatusCheckboxes() {
+    document.querySelectorAll("#status-filters input").forEach(cb => {
+      cb.checked = state.statuses.has(cb.dataset.key);
+    });
+  }
+  document.getElementById("reset-status").addEventListener("click", () => {
+    setDefaultStatuses();
+    syncStatusCheckboxes();
     render();
   });
   document.getElementById("reset-all").addEventListener("click", () => {
-    state.langs.clear(); state.statuses.clear(); state.query = "";
+    state.langs.clear(); state.query = "";
+    setDefaultStatuses();
     searchEl.value = "";
-    document.querySelectorAll(".filters input[type='checkbox']").forEach(cb => {
-      if (cb.id === "show-archived") cb.checked = true;
-      else if (cb.id === "show-meta") cb.checked = false;
-      else cb.checked = false;
-    });
-    state.showArchived = true; state.showMeta = false;
+    document.querySelectorAll("#lang-filters input").forEach(cb => cb.checked = false);
+    syncStatusCheckboxes();
     render();
   });
   document.addEventListener("keydown", e => {
