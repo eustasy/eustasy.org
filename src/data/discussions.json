@@ -4,7 +4,7 @@
     "title": "Password and 2fa can be bypassed by email one after the other, nullifying 2 factor auth.",
     "repo": "puff-serverless",
     "meta": "1 reply",
-    "time": "13h",
+    "time": "19h",
     "url": "https://github.com/eustasy/puff-serverless/issues/109"
   },
   {
@@ -12,7 +12,7 @@
     "title": ".well-known redirects",
     "repo": "puff-serverless",
     "meta": "#111",
-    "time": "22h",
+    "time": "1d",
     "url": "https://github.com/eustasy/puff-serverless/issues/111"
   },
   {
@@ -20,7 +20,7 @@
     "title": "A user with no active password may not be able to set a new password.",
     "repo": "puff-serverless",
     "meta": "1 reply",
-    "time": "23h",
+    "time": "1d",
     "url": "https://github.com/eustasy/puff-serverless/issues/108"
   },
   {
