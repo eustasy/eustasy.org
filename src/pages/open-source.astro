@@ -31,8 +31,8 @@ import repos from '../data/repos.json';
       <label class="sort-select">
         <span style="color:var(--color-text-tertiary);font-family:var(--font-mono);font-size:11px;text-transform:uppercase;letter-spacing:0.06em">Sort</span>
         <select id="sort">
+          <option value="stars" selected>Most starred</option>
           <option value="recent">Recently updated</option>
-          <option value="stars">Most starred</option>
           <option value="name">Name (A–Z)</option>
           <option value="status">Status</option>
         </select>
@@ -88,7 +88,7 @@ import repos from '../data/repos.json';
     query: "",
     langs: new Set(),
     statuses: new Set(),
-    sort: "recent",
+    sort: "stars",
   };
 
   function relTime(days) {
@@ -388,10 +388,17 @@ import repos from '../data/repos.json';
   .sort-select:hover { border-color: var(--color-border-hover); }
   .sort-select select {
     appearance: none;
-    background: transparent; border: none; outline: none;
-    color: inherit; font: inherit;
+    background: var(--color-surface);
+    color: var(--color-text);
+    border: none; outline: none;
+    font: inherit;
     padding-right: 4px;
     cursor: pointer;
+    color-scheme: light dark;
+  }
+  .sort-select select option {
+    background: var(--color-surface);
+    color: var(--color-text);
   }
 
   .page-body { padding-block: 32px 80px; }
