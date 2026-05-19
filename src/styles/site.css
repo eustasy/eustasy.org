@@ -156,7 +156,6 @@ body {
   color: var(--site-accent);
 }
 .footer-col li:has(.all-link) { margin-top: 4px; }
-.footer-col ul.two-col li:has(.all-link) { grid-column: 1 / -1; }
 .footer-col h4 {
   margin: 0 0 14px;
   font-family: var(--font-mono);
