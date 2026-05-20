@@ -22,13 +22,5 @@
     "meta": "1 reply",
     "time": "1d",
     "url": "https://github.com/eustasy/puff-serverless/issues/108"
-  },
-  {
-    "type": "issue",
-    "title": "Deploy error on recent push.",
-    "repo": "puff-serverless",
-    "meta": "#110",
-    "time": "1d",
-    "url": "https://github.com/eustasy/puff-serverless/issues/110"
   }
 ]
