@@ -14,13 +14,5 @@
     "meta": "#111",
     "time": "2d",
     "url": "https://github.com/eustasy/puff-serverless/issues/111"
-  },
-  {
-    "type": "discussion",
-    "title": "A user with no active password may not be able to set a new password.",
-    "repo": "puff-serverless",
-    "meta": "1 reply",
-    "time": "2d",
-    "url": "https://github.com/eustasy/puff-serverless/issues/108"
   }
 ]
