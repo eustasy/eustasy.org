@@ -38,13 +38,13 @@
   {
     "name": "jQuery.leanModal2",
     "ns": "eustasy",
-    "desc": "JQ-LIB: A pure solution to putting your own HTML and CSS to work as a modal dialogue.",
+    "desc": "A pure solution to putting your own HTML and CSS to work as a modal dialogue.",
     "url": "https://github.com/eustasy/jQuery.leanModal2",
     "stars": 4,
     "langs": [
-      "html"
+      "jq"
     ],
-    "primaryLang": "html",
+    "primaryLang": "jq",
     "status": "active",
     "updated": 3,
     "updatedRel": "3d ago",
@@ -182,7 +182,7 @@
   {
     "name": "howtoubuntu.org",
     "ns": "eustasy",
-    "desc": "STATIC-SITE: Ubuntu Tutorials and How to's",
+    "desc": "Ubuntu Tutorials and How to's",
     "url": "https://github.com/eustasy/howtoubuntu.org",
     "stars": 0,
     "langs": [
@@ -236,7 +236,7 @@
   {
     "name": "elementary-theme-for-google-chrome",
     "ns": "eustasy-archive",
-    "desc": "CHROME-THEME: elementary Theme for Chrome",
+    "desc": "elementary Theme for Chrome",
     "url": "https://github.com/eustasy-archive/elementary-theme-for-google-chrome",
     "stars": 2,
     "langs": [
@@ -380,7 +380,7 @@
   {
     "name": "elementary-Search",
     "ns": "eustasy-archive",
-    "desc": "LAB: elementary Search",
+    "desc": "elementary Search",
     "url": "https://github.com/eustasy-archive/elementary-Search",
     "stars": 1,
     "langs": [

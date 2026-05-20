@@ -96,8 +96,11 @@ const DESC_PREFIX_LANG = {
   'PYTHON': 'python',
   'JS-LIB': 'js',
   'JQUERY': 'jq',
+  'JQ-LIB': 'jq',
   'STATIC': 'html',
+  'STATIC-SITE': 'html',
   'SITE': 'html',
+  'CHROME-THEME': 'html',
 };
 
 export function classifyLang(repo) {
@@ -137,7 +140,7 @@ export function classifyStatus(repo, org = '') {
 
 // Strip any leading `TYPE:` prefix from descriptions so we don't double up.
 export function cleanDescription(desc) {
-  return (desc ?? '').replace(/^(EOL|DEPRECATED|ALPHA|TYPE|CSS-LIB|BASH|PHP-LIB|PYTHON|JS-LIB|JQUERY|STATIC|SITE|META)\s*[:.]\s*/i, '').trim();
+  return (desc ?? '').replace(/^(EOL|DEPRECATED|ALPHA|TYPE|CSS-LIB|BASH|PHP-LIB|PYTHON|JS-LIB|JQUERY|JQ-LIB|STATIC|STATIC-SITE|SITE|CHROME-THEME|LAB|META)\s*[:.]\s*/i, '').trim();
 }
 
 export function repoOwnerName(fullName) {
