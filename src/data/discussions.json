@@ -1,10 +1,16 @@
 [
   {
+    "type": "issue",
+    "repo": "here-miss",
+    "meta": "#6",
+    "time": "1h"
+  },
+  {
     "type": "discussion",
     "title": "Password and 2fa can be bypassed by email one after the other, nullifying 2 factor auth.",
     "repo": "puff-serverless",
     "meta": "1 reply",
-    "time": "1d",
+    "time": "2d",
     "url": "https://github.com/eustasy/puff-serverless/issues/109"
   },
   {
