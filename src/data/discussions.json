@@ -3,7 +3,7 @@
     "type": "issue",
     "repo": "here-miss",
     "meta": "#6",
-    "time": "7h"
+    "time": "12h"
   },
   {
     "type": "discussion",
@@ -12,13 +12,5 @@
     "meta": "1 reply",
     "time": "2d",
     "url": "https://github.com/eustasy/puff-serverless/issues/109"
-  },
-  {
-    "type": "issue",
-    "title": ".well-known redirects",
-    "repo": "puff-serverless",
-    "meta": "#111",
-    "time": "2d",
-    "url": "https://github.com/eustasy/puff-serverless/issues/111"
   }
 ]
