@@ -4,7 +4,7 @@
     "title": "Updated issues and pull requests are available",
     "repo": ".github",
     "meta": "1 reply",
-    "time": "16h",
+    "time": "20h",
     "url": "https://github.com/eustasy/.github/issues/1"
   },
   {
@@ -12,13 +12,13 @@
     "title": "Passkeys are not triggered automatically, and email is not remembered.",
     "repo": "puff-serverless",
     "meta": "#113",
-    "time": "17h",
+    "time": "20h",
     "url": "https://github.com/eustasy/puff-serverless/issues/113"
   },
   {
     "type": "issue",
     "repo": "apple-silicon",
     "meta": "#18",
-    "time": "1d"
+    "time": "2d"
   }
 ]
