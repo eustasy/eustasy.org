@@ -1,5 +1,11 @@
 [
   {
+    "type": "issue",
+    "repo": "Phoenix",
+    "meta": "#51",
+    "time": "1h"
+  },
+  {
     "type": "discussion",
     "title": "Updated issues and pull requests are available",
     "repo": ".github",
@@ -14,11 +20,5 @@
     "meta": "#113",
     "time": "1d",
     "url": "https://github.com/eustasy/puff-serverless/issues/113"
-  },
-  {
-    "type": "issue",
-    "repo": "apple-silicon",
-    "meta": "#18",
-    "time": "2d"
   }
 ]
