@@ -3,7 +3,7 @@
     "type": "issue",
     "repo": "Phoenix",
     "meta": "#51",
-    "time": "16h"
+    "time": "19h"
   },
   {
     "type": "discussion",
@@ -12,13 +12,5 @@
     "meta": "1 reply",
     "time": "1d",
     "url": "https://github.com/eustasy/.github/issues/1"
-  },
-  {
-    "type": "issue",
-    "title": "Passkeys are not triggered automatically, and email is not remembered.",
-    "repo": "puff-serverless",
-    "meta": "#113",
-    "time": "1d",
-    "url": "https://github.com/eustasy/puff-serverless/issues/113"
   }
 ]
