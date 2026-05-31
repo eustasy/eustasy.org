@@ -4,7 +4,7 @@
     "title": "Add automatic testing.",
     "repo": "browning",
     "meta": "#10",
-    "time": "3h",
+    "time": "5h",
     "url": "https://github.com/eustasy/browning/issues/10"
   },
   {
@@ -12,13 +12,13 @@
     "title": "Automatic dependabot setup",
     "repo": ".normal",
     "meta": "#30",
-    "time": "3h",
+    "time": "5h",
     "url": "https://github.com/eustasy/.normal/issues/30"
   },
   {
     "type": "issue",
     "repo": "browning",
     "meta": "#9",
-    "time": "7h"
+    "time": "9h"
   }
 ]
