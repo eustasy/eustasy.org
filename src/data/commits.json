@@ -1,11 +1,27 @@
 [
   {
     "type": "release",
-    "title": "Colors.css 2.1.0",
+    "title": "Colors.css 2.1.1",
     "repo": "Colors.css",
     "meta": "eustasy",
-    "time": "2w",
-    "url": "https://github.com/eustasy/Colors.css/releases/tag/2.1.0"
+    "time": "35m",
+    "url": "https://github.com/eustasy/Colors.css/releases/tag/2.1.1"
+  },
+  {
+    "type": "release",
+    "title": "authenticatron v4.1.1",
+    "repo": "authenticatron",
+    "meta": "eustasy",
+    "time": "14h",
+    "url": "https://github.com/eustasy/authenticatron/releases/tag/v4.1.1"
+  },
+  {
+    "type": "release",
+    "title": "browning 1.31",
+    "repo": "browning",
+    "meta": "eustasy",
+    "time": "20h",
+    "url": "https://github.com/eustasy/browning/releases/tag/1.31"
   },
   {
     "type": "release",
@@ -17,26 +33,10 @@
   },
   {
     "type": "release",
-    "title": "authenticatron v4.1.0",
-    "repo": "authenticatron",
-    "meta": "eustasy",
-    "time": "4w",
-    "url": "https://github.com/eustasy/authenticatron/releases/tag/v4.1.0"
-  },
-  {
-    "type": "release",
     "title": "jQuery.leanModal2 2.6.4",
     "repo": "jQuery.leanModal2",
     "meta": "eustasy",
     "time": "4w",
     "url": "https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.4"
-  },
-  {
-    "type": "release",
-    "title": "browning 0.30",
-    "repo": "browning",
-    "meta": "eustasy",
-    "time": "6w",
-    "url": "https://github.com/eustasy/browning/releases/tag/0.30"
   }
 ]
