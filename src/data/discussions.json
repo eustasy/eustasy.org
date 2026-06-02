@@ -3,14 +3,14 @@
     "type": "issue",
     "repo": "Bubbly",
     "meta": "#34",
-    "time": "12h"
+    "time": "18h"
   },
   {
     "type": "issue",
     "title": "Extract large blocks of HTML into .html files to be included.",
     "repo": "authenticatron",
     "meta": "#22",
-    "time": "13h",
+    "time": "19h",
     "url": "https://github.com/eustasy/authenticatron/issues/22"
   }
 ]
