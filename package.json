@@ -14,7 +14,7 @@
     "fetch:all": "bun run fetch:repos && bun run fetch:commits && bun run fetch:discussions"
   },
   "dependencies": {
-    "astro": "6.3.0",
-    "wrangler": "^4.91.0"
+    "astro": "6.4.4",
+    "wrangler": "^4.97.0"
   }
 }
