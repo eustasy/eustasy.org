@@ -1,16 +1,8 @@
 [
   {
     "type": "issue",
-    "repo": "Bubbly",
-    "meta": "#34",
-    "time": "1d"
-  },
-  {
-    "type": "issue",
-    "title": "Extract large blocks of HTML into .html files to be included.",
-    "repo": "authenticatron",
-    "meta": "#22",
-    "time": "1d",
-    "url": "https://github.com/eustasy/authenticatron/issues/22"
+    "repo": "browning",
+    "meta": "#11",
+    "time": "2h"
   }
 ]
