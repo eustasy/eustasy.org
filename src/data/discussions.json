@@ -1,8 +1,16 @@
 [
   {
     "type": "issue",
-    "repo": "Bubbly",
-    "meta": "#35",
-    "time": "10h"
+    "title": "2fa on admin page",
+    "repo": "Phoenix",
+    "meta": "#52",
+    "time": "1h",
+    "url": "https://github.com/eustasy/Phoenix/issues/52"
+  },
+  {
+    "type": "issue",
+    "repo": "eustasy.org",
+    "meta": "#10",
+    "time": "3h"
   }
 ]
