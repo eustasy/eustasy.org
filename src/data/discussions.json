@@ -3,14 +3,14 @@
     "type": "issue",
     "repo": ".normal",
     "meta": "#32",
-    "time": "2h"
+    "time": "7h"
   },
   {
     "type": "issue",
     "title": "2fa on admin page",
     "repo": "Phoenix",
     "meta": "#52",
-    "time": "8h",
+    "time": "13h",
     "url": "https://github.com/eustasy/Phoenix/issues/52"
   }
 ]
