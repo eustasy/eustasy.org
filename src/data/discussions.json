@@ -1,16 +1,42 @@
 [
   {
     "type": "issue",
-    "repo": ".normal",
-    "meta": "#32",
-    "time": "7h"
+    "title": "Add CSRF tokens to admin panel state-changing forms",
+    "repo": "Phoenix",
+    "meta": "#59",
+    "time": "1h",
+    "url": "https://github.com/eustasy/Phoenix/issues/59"
   },
   {
     "type": "issue",
-    "title": "2fa on admin page",
+    "title": "Admin panel: settings viewer + password change",
     "repo": "Phoenix",
-    "meta": "#52",
-    "time": "13h",
-    "url": "https://github.com/eustasy/Phoenix/issues/52"
+    "meta": "#58",
+    "time": "2h",
+    "url": "https://github.com/eustasy/Phoenix/issues/58"
+  },
+  {
+    "type": "issue",
+    "title": "Admin panel: torrent management (list, toggle listed, delete)",
+    "repo": "Phoenix",
+    "meta": "#56",
+    "time": "2h",
+    "url": "https://github.com/eustasy/Phoenix/issues/56"
+  },
+  {
+    "type": "issue",
+    "title": "Admin panel: on-demand database backups",
+    "repo": "Phoenix",
+    "meta": "#57",
+    "time": "2h",
+    "url": "https://github.com/eustasy/Phoenix/issues/57"
+  },
+  {
+    "type": "issue",
+    "title": "Admin panel: live stats dashboard",
+    "repo": "Phoenix",
+    "meta": "#55",
+    "time": "2h",
+    "url": "https://github.com/eustasy/Phoenix/issues/55"
   }
 ]
