@@ -1,16 +1,16 @@
 [
   {
     "type": "issue",
-    "title": "2fa on admin page",
-    "repo": "Phoenix",
-    "meta": "#52",
-    "time": "3h",
-    "url": "https://github.com/eustasy/Phoenix/issues/52"
+    "repo": ".normal",
+    "meta": "#32",
+    "time": "2h"
   },
   {
     "type": "issue",
-    "repo": "eustasy.org",
-    "meta": "#10",
-    "time": "6h"
+    "title": "2fa on admin page",
+    "repo": "Phoenix",
+    "meta": "#52",
+    "time": "8h",
+    "url": "https://github.com/eustasy/Phoenix/issues/52"
   }
 ]
