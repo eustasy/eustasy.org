@@ -1,26 +1,32 @@
 [
   {
     "type": "issue",
-    "title": "Write 4.0 changelog entry + 3.x→4.0 migration notes",
+    "repo": "apple-silicon",
+    "meta": "#19",
+    "time": "46m"
+  },
+  {
+    "type": "discussion",
+    "title": "Bump version string to stable v4.0 (drop beta)",
     "repo": "Phoenix",
-    "meta": "#61",
-    "time": "1h",
-    "url": "https://github.com/eustasy/Phoenix/issues/61"
+    "meta": "1 reply",
+    "time": "2h",
+    "url": "https://github.com/eustasy/Phoenix/issues/60"
   },
   {
     "type": "issue",
-    "title": "Bump version string to stable v4.0 (drop beta)",
+    "title": "Write 4.0 changelog entry + 3.x→4.0 migration notes",
     "repo": "Phoenix",
-    "meta": "#60",
-    "time": "1h",
-    "url": "https://github.com/eustasy/Phoenix/issues/60"
+    "meta": "#61",
+    "time": "5h",
+    "url": "https://github.com/eustasy/Phoenix/issues/61"
   },
   {
     "type": "issue",
     "title": "Add CSRF tokens to admin panel state-changing forms",
     "repo": "Phoenix",
     "meta": "#59",
-    "time": "4h",
+    "time": "8h",
     "url": "https://github.com/eustasy/Phoenix/issues/59"
   },
   {
@@ -28,15 +34,7 @@
     "title": "Admin panel: settings viewer + password change",
     "repo": "Phoenix",
     "meta": "#58",
-    "time": "6h",
+    "time": "9h",
     "url": "https://github.com/eustasy/Phoenix/issues/58"
-  },
-  {
-    "type": "issue",
-    "title": "Admin panel: torrent management (list, toggle listed, delete)",
-    "repo": "Phoenix",
-    "meta": "#56",
-    "time": "6h",
-    "url": "https://github.com/eustasy/Phoenix/issues/56"
   }
 ]
