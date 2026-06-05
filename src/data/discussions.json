@@ -1,16 +1,16 @@
 [
   {
     "type": "issue",
-    "repo": "apple-silicon",
-    "meta": "#19",
-    "time": "21h"
+    "repo": ".normal",
+    "meta": "#33",
+    "time": "2h"
   },
   {
     "type": "discussion",
     "title": "Bump version string to stable v4.0 (drop beta)",
     "repo": "Phoenix",
     "meta": "1 reply",
-    "time": "23h",
+    "time": "1d",
     "url": "https://github.com/eustasy/Phoenix/issues/60"
   }
 ]
