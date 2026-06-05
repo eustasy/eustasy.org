@@ -3,14 +3,14 @@
     "type": "issue",
     "repo": "apple-silicon",
     "meta": "#19",
-    "time": "3h"
+    "time": "9h"
   },
   {
     "type": "discussion",
     "title": "Bump version string to stable v4.0 (drop beta)",
     "repo": "Phoenix",
     "meta": "1 reply",
-    "time": "6h",
+    "time": "11h",
     "url": "https://github.com/eustasy/Phoenix/issues/60"
   },
   {
@@ -18,7 +18,7 @@
     "title": "Write 4.0 changelog entry + 3.x→4.0 migration notes",
     "repo": "Phoenix",
     "meta": "#61",
-    "time": "8h",
+    "time": "13h",
     "url": "https://github.com/eustasy/Phoenix/issues/61"
   },
   {
@@ -26,15 +26,7 @@
     "title": "Add CSRF tokens to admin panel state-changing forms",
     "repo": "Phoenix",
     "meta": "#59",
-    "time": "11h",
+    "time": "16h",
     "url": "https://github.com/eustasy/Phoenix/issues/59"
-  },
-  {
-    "type": "issue",
-    "title": "Admin panel: settings viewer + password change",
-    "repo": "Phoenix",
-    "meta": "#58",
-    "time": "12h",
-    "url": "https://github.com/eustasy/Phoenix/issues/58"
   }
 ]
