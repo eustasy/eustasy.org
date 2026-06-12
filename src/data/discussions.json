@@ -1,8 +1,40 @@
 [
   {
     "type": "issue",
+    "title": "API: delete a torrent (/api/torrent/delete)",
+    "repo": "Phoenix",
+    "meta": "#65",
+    "time": "3h",
+    "url": "https://github.com/eustasy/Phoenix/issues/65"
+  },
+  {
+    "type": "issue",
+    "title": "API: list/de-list a torrent (/api/torrent/list, /api/torrent/delist)",
+    "repo": "Phoenix",
+    "meta": "#64",
+    "time": "3h",
+    "url": "https://github.com/eustasy/Phoenix/issues/64"
+  },
+  {
+    "type": "issue",
+    "title": "API: list all torrents (/api/torrents)",
+    "repo": "Phoenix",
+    "meta": "#63",
+    "time": "3h",
+    "url": "https://github.com/eustasy/Phoenix/issues/63"
+  },
+  {
+    "type": "issue",
+    "title": "API: path-per-action endpoints (replace the action router)",
+    "repo": "Phoenix",
+    "meta": "#62",
+    "time": "3h",
+    "url": "https://github.com/eustasy/Phoenix/issues/62"
+  },
+  {
+    "type": "issue",
     "repo": "apple-silicon",
     "meta": "#20",
-    "time": "4h"
+    "time": "9h"
   }
 ]
