@@ -1,10 +1,18 @@
 [
   {
     "type": "issue",
+    "title": "Admin panel: add-torrent form with meta fields and .torrent upload",
+    "repo": "Phoenix",
+    "meta": "#66",
+    "time": "3h",
+    "url": "https://github.com/eustasy/Phoenix/issues/66"
+  },
+  {
+    "type": "issue",
     "title": "API: delete a torrent (/api/torrent/delete)",
     "repo": "Phoenix",
     "meta": "#65",
-    "time": "3h",
+    "time": "8h",
     "url": "https://github.com/eustasy/Phoenix/issues/65"
   },
   {
@@ -12,7 +20,7 @@
     "title": "API: list/de-list a torrent (/api/torrent/list, /api/torrent/delist)",
     "repo": "Phoenix",
     "meta": "#64",
-    "time": "3h",
+    "time": "8h",
     "url": "https://github.com/eustasy/Phoenix/issues/64"
   },
   {
@@ -20,7 +28,7 @@
     "title": "API: list all torrents (/api/torrents)",
     "repo": "Phoenix",
     "meta": "#63",
-    "time": "3h",
+    "time": "8h",
     "url": "https://github.com/eustasy/Phoenix/issues/63"
   },
   {
@@ -28,13 +36,7 @@
     "title": "API: path-per-action endpoints (replace the action router)",
     "repo": "Phoenix",
     "meta": "#62",
-    "time": "3h",
+    "time": "8h",
     "url": "https://github.com/eustasy/Phoenix/issues/62"
-  },
-  {
-    "type": "issue",
-    "repo": "apple-silicon",
-    "meta": "#20",
-    "time": "9h"
   }
 ]
