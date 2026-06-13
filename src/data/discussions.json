@@ -3,14 +3,14 @@
     "type": "issue",
     "repo": ".ui",
     "meta": "#2",
-    "time": "3h"
+    "time": "8h"
   },
   {
     "type": "issue",
     "title": "Admin panel: add-torrent form with meta fields and .torrent upload",
     "repo": "Phoenix",
     "meta": "#66",
-    "time": "22h",
+    "time": "1d",
     "url": "https://github.com/eustasy/Phoenix/issues/66"
   },
   {
