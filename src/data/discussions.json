@@ -10,7 +10,7 @@
     "title": "Admin panel: add-torrent form with meta fields and .torrent upload",
     "repo": "Phoenix",
     "meta": "#66",
-    "time": "1d",
+    "time": "2d",
     "url": "https://github.com/eustasy/Phoenix/issues/66"
   },
   {
@@ -20,21 +20,5 @@
     "meta": "#65",
     "time": "2d",
     "url": "https://github.com/eustasy/Phoenix/issues/65"
-  },
-  {
-    "type": "issue",
-    "title": "API: list/de-list a torrent (/api/torrent/list, /api/torrent/delist)",
-    "repo": "Phoenix",
-    "meta": "#64",
-    "time": "2d",
-    "url": "https://github.com/eustasy/Phoenix/issues/64"
-  },
-  {
-    "type": "issue",
-    "title": "API: list all torrents (/api/torrents)",
-    "repo": "Phoenix",
-    "meta": "#63",
-    "time": "2d",
-    "url": "https://github.com/eustasy/Phoenix/issues/63"
   }
 ]
