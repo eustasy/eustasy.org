@@ -12,13 +12,5 @@
     "meta": "#66",
     "time": "2d",
     "url": "https://github.com/eustasy/Phoenix/issues/66"
-  },
-  {
-    "type": "issue",
-    "title": "API: delete a torrent (/api/torrent/delete)",
-    "repo": "Phoenix",
-    "meta": "#65",
-    "time": "2d",
-    "url": "https://github.com/eustasy/Phoenix/issues/65"
   }
 ]
