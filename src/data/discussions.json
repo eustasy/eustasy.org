@@ -1,8 +1,24 @@
 [
   {
     "type": "issue",
+    "title": "Tracker errors: add \"retry in\" to failure responses (BEP 31)",
+    "repo": "Phoenix",
+    "meta": "#69",
+    "time": "1h",
+    "url": "https://github.com/eustasy/Phoenix/issues/69"
+  },
+  {
+    "type": "issue",
+    "title": "Announce: return the client's external IP in the response (BEP 24)",
+    "repo": "Phoenix",
+    "meta": "#68",
+    "time": "1h",
+    "url": "https://github.com/eustasy/Phoenix/issues/68"
+  },
+  {
+    "type": "issue",
     "repo": "Phoenix",
     "meta": "#67",
-    "time": "8h"
+    "time": "13h"
   }
 ]
