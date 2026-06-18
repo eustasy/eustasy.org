@@ -1,9 +1,9 @@
 [
   {
     "type": "issue",
-    "repo": ".normal",
-    "meta": "#40",
-    "time": "1d"
+    "repo": "apple-silicon",
+    "meta": "#21",
+    "time": "2h"
   },
   {
     "type": "issue",
