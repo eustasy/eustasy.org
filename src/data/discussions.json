@@ -1,8 +1,8 @@
 [
   {
     "type": "issue",
-    "repo": ".ui",
-    "meta": "#5",
-    "time": "1d"
+    "repo": "puff-serverless",
+    "meta": "#120",
+    "time": "1h"
   }
 ]
