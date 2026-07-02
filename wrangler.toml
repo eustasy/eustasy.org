@@ -1,4 +1,4 @@
-name = "eustasy-org"
+name = 'eustasy-org-website'
 compatibility_date = "2026-05-14"
 
 [assets]
