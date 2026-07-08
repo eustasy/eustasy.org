@@ -2,15 +2,15 @@
   {
     "type": "issue",
     "repo": ".normal",
-    "meta": "#56",
-    "time": "21h"
+    "meta": "#57",
+    "time": "21m"
   },
   {
     "type": "discussion",
     "title": "Bump version string to stable v5.0 (drop beta)",
     "repo": "Phoenix",
     "meta": "2 replies",
-    "time": "23h",
+    "time": "1d",
     "url": "https://github.com/eustasy/Phoenix/issues/60"
   }
 ]
