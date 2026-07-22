@@ -1,0 +1,59 @@
+name: Dependabot lockfile
+
+on:
+  pull_request_target:
+    branches: ['cf-pages']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dependabot-lockfile-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    # Dependabot *security* updates ignore dependabot.yml entirely — they are
+    # driven by the advisory database and run through the npm_and_yarn updater,
+    # which bumps package.json and then looks for package-lock.json / yarn.lock.
+    # It has no idea bun.lock exists, so the lockfile silently drifts. The
+    # scheduled `package-ecosystem: bun` updates use the real Bun updater and
+    # maintain bun.lock correctly; this job exists solely to cover the rest.
+    #
+    # The head.repo check keeps pull_request_target from ever checking out a
+    # fork: Dependabot branches always live in this repo.
+    if: >-
+      github.actor == 'dependabot[bot]' &&
+      github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      # --lockfile-only resolves and writes bun.lock without installing
+      # anything, so no code from the updated dependency tree executes. That
+      # matters here, because pull_request_target hands us a writable token.
+      - name: Resolve lockfile
+        run: bun install --lockfile-only --ignore-scripts
+
+      - name: Commit if changed
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add bun.lock
+          if git diff --staged --quiet; then
+            echo "Lockfile already in sync."
+          else
+            git commit -m "chore(deps): sync bun.lock"
+            git push
+          fi
+
+      # Pushes made with GITHUB_TOKEN deliberately do not trigger new workflow
+      # runs, so lockfile-check.yml will never re-run on this PR after the fix
+      # lands. Assert the result here instead, in the same job.
+      - name: Verify
+        run: bun install --frozen-lockfile --ignore-scripts

@@ -1,0 +1,32 @@
+name: Lockfile check
+
+on:
+  pull_request:
+    branches: ['cf-pages']
+  push:
+    branches: ['cf-pages']
+
+permissions:
+  contents: read
+
+concurrency:
+  group: lockfile-check-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  frozen:
+    # Dependabot PRs are covered by dependabot-lockfile.yml, which fixes *and*
+    # verifies in one run. Letting this job run on them too would leave a
+    # permanently red check: it fails before the fix lands, and the fix is
+    # pushed with GITHUB_TOKEN, which never re-triggers a workflow.
+    if: github.actor != 'dependabot[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+      # Fails if package.json and bun.lock disagree — the same check Bun
+      # applies automatically during the Cloudflare Pages build, surfaced on
+      # the PR instead of at deploy time.
+      - run: bun install --frozen-lockfile --ignore-scripts
