@@ -3,14 +3,14 @@
     "type": "issue",
     "repo": ".normal",
     "meta": "#68",
-    "time": "13h"
+    "time": "17h"
   },
   {
     "type": "discussion",
     "title": "Bump astro from 7.0.5 to 7.1.0",
     "repo": "eustasy.org",
     "meta": "1 reply",
-    "time": "23h",
+    "time": "1d",
     "url": "https://github.com/eustasy/eustasy.org/pull/15"
   }
 ]
