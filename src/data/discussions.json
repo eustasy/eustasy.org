@@ -3,14 +3,14 @@
     "type": "issue",
     "repo": "apple-silicon",
     "meta": "#29",
-    "time": "10h"
+    "time": "14h"
   },
   {
     "type": "discussion",
     "title": "Bump astro from 7.0.5 to 7.1.0",
     "repo": "eustasy.org",
     "meta": "1 reply",
-    "time": "2d",
+    "time": "3d",
     "url": "https://github.com/eustasy/eustasy.org/pull/15"
   }
 ]
