@@ -1,8 +1,16 @@
 [
   {
     "type": "issue",
+    "title": "🛑 authenticatron.eustasy.org is down",
+    "repo": ".uptime",
+    "meta": "#3",
+    "time": "57m",
+    "url": "https://github.com/eustasy/.uptime/issues/3"
+  },
+  {
+    "type": "issue",
     "repo": ".normal",
     "meta": "#71",
-    "time": "16h"
+    "time": "18h"
   }
 ]
