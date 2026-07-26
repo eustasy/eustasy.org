@@ -2,15 +2,15 @@
   {
     "type": "issue",
     "repo": "puff-serverless",
-    "meta": "#121",
-    "time": "2h"
+    "meta": "#122",
+    "time": "1h"
   },
   {
     "type": "issue",
     "title": "🛑 authenticatron.eustasy.org is down",
     "repo": ".uptime",
     "meta": "#3",
-    "time": "12h",
+    "time": "17h",
     "url": "https://github.com/eustasy/.uptime/issues/3"
   }
 ]
