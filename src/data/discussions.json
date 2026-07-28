@@ -3,14 +3,14 @@
     "type": "issue",
     "repo": ".ui",
     "meta": "#9",
-    "time": "12h"
+    "time": "15h"
   },
   {
     "type": "issue",
     "title": "🛑 authenticatron.eustasy.org is down",
     "repo": ".uptime",
     "meta": "#3",
-    "time": "2d",
+    "time": "3d",
     "url": "https://github.com/eustasy/.uptime/issues/3"
   }
 ]
