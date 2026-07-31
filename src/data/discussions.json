@@ -3,14 +3,14 @@
     "type": "issue",
     "repo": "apple-silicon",
     "meta": "#30",
-    "time": "8h"
+    "time": "11h"
   },
   {
     "type": "discussion",
     "title": "🛑 authenticatron.eustasy.org is down",
     "repo": ".uptime",
     "meta": "1 reply",
-    "time": "15h",
+    "time": "19h",
     "url": "https://github.com/eustasy/.uptime/issues/3"
   }
 ]
