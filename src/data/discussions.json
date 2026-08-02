@@ -3,14 +3,14 @@
     "type": "issue",
     "repo": "Bubbly",
     "meta": "#39",
-    "time": "10h"
+    "time": "13h"
   },
   {
     "type": "discussion",
     "title": "Bump typescript from 6.0.3 to 7.0.2",
     "repo": "puff-serverless",
     "meta": "1 reply",
-    "time": "12h",
+    "time": "15h",
     "url": "https://github.com/eustasy/puff-serverless/pull/127"
   }
 ]
