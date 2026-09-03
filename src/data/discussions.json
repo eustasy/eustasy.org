@@ -1,5 +1,11 @@
 [
   {
+    "type": "issue",
+    "repo": "apple-silicon",
+    "meta": "#37",
+    "time": "1h"
+  },
+  {
     "type": "discussion",
     "title": "Bump rollup from 4.60.3 to 4.63.1",
     "repo": "eustasy.org",
@@ -14,12 +20,6 @@
     "meta": "1 reply",
     "time": "1d",
     "url": "https://github.com/eustasy/puff-serverless/pull/130"
-  },
-  {
-    "type": "issue",
-    "repo": "eustasy.org",
-    "meta": "#18",
-    "time": "1d"
   },
   {
     "type": "discussion",
