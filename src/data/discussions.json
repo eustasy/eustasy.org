@@ -1,9 +1,9 @@
 [
   {
     "type": "issue",
-    "repo": "apple-silicon",
-    "meta": "#37",
-    "time": "20h"
+    "repo": ".normal",
+    "meta": "#88",
+    "time": "1h"
   },
   {
     "type": "discussion",
@@ -28,13 +28,5 @@
     "meta": "1 reply",
     "time": "2d",
     "url": "https://github.com/eustasy/eustasy.org/pull/17"
-  },
-  {
-    "type": "discussion",
-    "title": "Bump actions/setup-node from 6 to 7",
-    "repo": "eustasy.org",
-    "meta": "1 reply",
-    "time": "2d",
-    "url": "https://github.com/eustasy/eustasy.org/pull/16"
   }
 ]
