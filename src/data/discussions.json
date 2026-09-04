@@ -3,14 +3,14 @@
     "type": "issue",
     "repo": "apple-silicon",
     "meta": "#37",
-    "time": "1h"
+    "time": "4h"
   },
   {
     "type": "discussion",
     "title": "Bump rollup from 4.60.3 to 4.63.1",
     "repo": "eustasy.org",
     "meta": "2 replies",
-    "time": "1d",
+    "time": "2d",
     "url": "https://github.com/eustasy/eustasy.org/pull/18"
   },
   {
@@ -18,7 +18,7 @@
     "title": "Bump @napi-rs/wasm-runtime from 1.2.2 to 1.2.3",
     "repo": "puff-serverless",
     "meta": "1 reply",
-    "time": "1d",
+    "time": "2d",
     "url": "https://github.com/eustasy/puff-serverless/pull/130"
   },
   {
@@ -26,7 +26,7 @@
     "title": "Bump the bun-patching group with 64 updates",
     "repo": "eustasy.org",
     "meta": "1 reply",
-    "time": "1d",
+    "time": "2d",
     "url": "https://github.com/eustasy/eustasy.org/pull/17"
   },
   {
@@ -34,7 +34,7 @@
     "title": "Bump actions/setup-node from 6 to 7",
     "repo": "eustasy.org",
     "meta": "1 reply",
-    "time": "1d",
+    "time": "2d",
     "url": "https://github.com/eustasy/eustasy.org/pull/16"
   }
 ]
