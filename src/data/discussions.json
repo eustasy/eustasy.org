@@ -3,7 +3,7 @@
     "type": "issue",
     "repo": ".normal",
     "meta": "#88",
-    "time": "1h"
+    "time": "4h"
   },
   {
     "type": "discussion",
@@ -20,13 +20,5 @@
     "meta": "1 reply",
     "time": "2d",
     "url": "https://github.com/eustasy/puff-serverless/pull/130"
-  },
-  {
-    "type": "discussion",
-    "title": "Bump the bun-patching group with 64 updates",
-    "repo": "eustasy.org",
-    "meta": "1 reply",
-    "time": "2d",
-    "url": "https://github.com/eustasy/eustasy.org/pull/17"
   }
 ]
