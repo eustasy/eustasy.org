@@ -12,13 +12,5 @@
     "meta": "2 replies",
     "time": "3d",
     "url": "https://github.com/eustasy/eustasy.org/pull/18"
-  },
-  {
-    "type": "discussion",
-    "title": "Bump @napi-rs/wasm-runtime from 1.2.2 to 1.2.3",
-    "repo": "puff-serverless",
-    "meta": "1 reply",
-    "time": "3d",
-    "url": "https://github.com/eustasy/puff-serverless/pull/130"
   }
 ]
