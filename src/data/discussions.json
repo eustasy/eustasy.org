@@ -3,14 +3,14 @@
     "type": "issue",
     "repo": ".normal",
     "meta": "#88",
-    "time": "4h"
+    "time": "6h"
   },
   {
     "type": "discussion",
     "title": "Bump rollup from 4.60.3 to 4.63.1",
     "repo": "eustasy.org",
     "meta": "2 replies",
-    "time": "2d",
+    "time": "3d",
     "url": "https://github.com/eustasy/eustasy.org/pull/18"
   },
   {
@@ -18,7 +18,7 @@
     "title": "Bump @napi-rs/wasm-runtime from 1.2.2 to 1.2.3",
     "repo": "puff-serverless",
     "meta": "1 reply",
-    "time": "2d",
+    "time": "3d",
     "url": "https://github.com/eustasy/puff-serverless/pull/130"
   }
 ]
