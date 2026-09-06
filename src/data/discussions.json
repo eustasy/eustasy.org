@@ -4,13 +4,5 @@
     "repo": ".normal",
     "meta": "#88",
     "time": "1d"
-  },
-  {
-    "type": "discussion",
-    "title": "Bump rollup from 4.60.3 to 4.63.1",
-    "repo": "eustasy.org",
-    "meta": "2 replies",
-    "time": "3d",
-    "url": "https://github.com/eustasy/eustasy.org/pull/18"
   }
 ]
