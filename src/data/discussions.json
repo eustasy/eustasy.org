@@ -1,10 +1,16 @@
 [
   {
+    "type": "issue",
+    "repo": "apple-silicon",
+    "meta": "#38",
+    "time": "1h"
+  },
+  {
     "type": "discussion",
     "title": "🛑 Ashrise P2 is down",
     "repo": ".uptime",
     "meta": "1 reply",
-    "time": "2h",
+    "time": "6h",
     "url": "https://github.com/eustasy/.uptime/issues/5"
   },
   {
@@ -12,7 +18,7 @@
     "title": "🛑 Ashrise A1 is down",
     "repo": ".uptime",
     "meta": "1 reply",
-    "time": "2h",
+    "time": "6h",
     "url": "https://github.com/eustasy/.uptime/issues/4"
   },
   {
@@ -20,7 +26,7 @@
     "title": "Peers page is paginated, search isn't",
     "repo": "Phoenix",
     "meta": "#77",
-    "time": "3h",
+    "time": "8h",
     "url": "https://github.com/eustasy/Phoenix/issues/77"
   },
   {
@@ -28,15 +34,7 @@
     "title": "Dashboard mini-tables",
     "repo": "Phoenix",
     "meta": "#76",
-    "time": "3h",
+    "time": "8h",
     "url": "https://github.com/eustasy/Phoenix/issues/76"
-  },
-  {
-    "type": "issue",
-    "title": "Client Charts",
-    "repo": "Phoenix",
-    "meta": "#75",
-    "time": "3h",
-    "url": "https://github.com/eustasy/Phoenix/issues/75"
   }
 ]
