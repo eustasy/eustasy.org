@@ -1,32 +1,42 @@
 [
   {
-    "type": "issue",
+    "type": "discussion",
     "title": "🛑 Ashrise P2 is down",
     "repo": ".uptime",
-    "meta": "#5",
-    "time": "1h",
+    "meta": "1 reply",
+    "time": "2h",
     "url": "https://github.com/eustasy/.uptime/issues/5"
   },
   {
-    "type": "issue",
+    "type": "discussion",
     "title": "🛑 Ashrise A1 is down",
     "repo": ".uptime",
-    "meta": "#4",
-    "time": "1h",
+    "meta": "1 reply",
+    "time": "2h",
     "url": "https://github.com/eustasy/.uptime/issues/4"
   },
   {
     "type": "issue",
-    "title": "Make www- setup and redirects optional",
-    "repo": "Bubbly",
-    "meta": "#41",
-    "time": "5h",
-    "url": "https://github.com/eustasy/Bubbly/issues/41"
+    "title": "Peers page is paginated, search isn't",
+    "repo": "Phoenix",
+    "meta": "#77",
+    "time": "3h",
+    "url": "https://github.com/eustasy/Phoenix/issues/77"
   },
   {
     "type": "issue",
-    "repo": ".normal",
-    "meta": "#90",
-    "time": "18h"
+    "title": "Dashboard mini-tables",
+    "repo": "Phoenix",
+    "meta": "#76",
+    "time": "3h",
+    "url": "https://github.com/eustasy/Phoenix/issues/76"
+  },
+  {
+    "type": "issue",
+    "title": "Client Charts",
+    "repo": "Phoenix",
+    "meta": "#75",
+    "time": "3h",
+    "url": "https://github.com/eustasy/Phoenix/issues/75"
   }
 ]
