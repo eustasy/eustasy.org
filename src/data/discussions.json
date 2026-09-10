@@ -1,8 +1,32 @@
 [
   {
     "type": "issue",
+    "title": "🛑 Ashrise P2 is down",
+    "repo": ".uptime",
+    "meta": "#5",
+    "time": "1h",
+    "url": "https://github.com/eustasy/.uptime/issues/5"
+  },
+  {
+    "type": "issue",
+    "title": "🛑 Ashrise A1 is down",
+    "repo": ".uptime",
+    "meta": "#4",
+    "time": "1h",
+    "url": "https://github.com/eustasy/.uptime/issues/4"
+  },
+  {
+    "type": "issue",
+    "title": "Make www- setup and redirects optional",
+    "repo": "Bubbly",
+    "meta": "#41",
+    "time": "5h",
+    "url": "https://github.com/eustasy/Bubbly/issues/41"
+  },
+  {
+    "type": "issue",
     "repo": ".normal",
     "meta": "#90",
-    "time": "11h"
+    "time": "18h"
   }
 ]
