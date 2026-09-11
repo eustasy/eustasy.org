@@ -3,14 +3,14 @@
     "type": "issue",
     "repo": "puff-serverless",
     "meta": "#131",
-    "time": "12h"
+    "time": "17h"
   },
   {
     "type": "issue",
     "title": "Move lucide to jsdelivr, drop unpkg from CSP.",
     "repo": "Phoenix",
     "meta": "#78",
-    "time": "17h",
+    "time": "22h",
     "url": "https://github.com/eustasy/Phoenix/issues/78"
   },
   {
@@ -28,13 +28,5 @@
     "meta": "1 reply",
     "time": "1d",
     "url": "https://github.com/eustasy/.uptime/issues/4"
-  },
-  {
-    "type": "issue",
-    "title": "Peers page is paginated, search isn't",
-    "repo": "Phoenix",
-    "meta": "#77",
-    "time": "1d",
-    "url": "https://github.com/eustasy/Phoenix/issues/77"
   }
 ]
