@@ -3,14 +3,14 @@
     "type": "issue",
     "repo": "puff-serverless",
     "meta": "#131",
-    "time": "7h"
+    "time": "12h"
   },
   {
     "type": "issue",
     "title": "Move lucide to jsdelivr, drop unpkg from CSP.",
     "repo": "Phoenix",
     "meta": "#78",
-    "time": "12h",
+    "time": "17h",
     "url": "https://github.com/eustasy/Phoenix/issues/78"
   },
   {
@@ -18,7 +18,7 @@
     "title": "🛑 Ashrise P2 is down",
     "repo": ".uptime",
     "meta": "1 reply",
-    "time": "21h",
+    "time": "1d",
     "url": "https://github.com/eustasy/.uptime/issues/5"
   },
   {
@@ -26,7 +26,7 @@
     "title": "🛑 Ashrise A1 is down",
     "repo": ".uptime",
     "meta": "1 reply",
-    "time": "21h",
+    "time": "1d",
     "url": "https://github.com/eustasy/.uptime/issues/4"
   },
   {
@@ -34,7 +34,7 @@
     "title": "Peers page is paginated, search isn't",
     "repo": "Phoenix",
     "meta": "#77",
-    "time": "22h",
+    "time": "1d",
     "url": "https://github.com/eustasy/Phoenix/issues/77"
   }
 ]
