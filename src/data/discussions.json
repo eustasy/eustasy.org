@@ -3,22 +3,6 @@
     "type": "issue",
     "repo": "puff-serverless",
     "meta": "#131",
-    "time": "20h"
-  },
-  {
-    "type": "issue",
-    "title": "Move lucide to jsdelivr, drop unpkg from CSP.",
-    "repo": "Phoenix",
-    "meta": "#78",
-    "time": "1d",
-    "url": "https://github.com/eustasy/Phoenix/issues/78"
-  },
-  {
-    "type": "discussion",
-    "title": "🛑 Ashrise P2 is down",
-    "repo": ".uptime",
-    "meta": "1 reply",
-    "time": "1d",
-    "url": "https://github.com/eustasy/.uptime/issues/5"
+    "time": "1d"
   }
 ]
