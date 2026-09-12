@@ -1,19 +1,19 @@
 [
   {
     "type": "release",
+    "title": "Phoenix v5.0",
+    "repo": "Phoenix",
+    "meta": "eustasy",
+    "time": "4h",
+    "url": "https://github.com/eustasy/Phoenix/releases/tag/v5.0"
+  },
+  {
+    "type": "release",
     "title": "Bubbly 3.0",
     "repo": "Bubbly",
     "meta": "eustasy",
     "time": "2d",
     "url": "https://github.com/eustasy/Bubbly/releases/tag/3.0"
-  },
-  {
-    "type": "release",
-    "title": "Phoenix v3.2.2",
-    "repo": "Phoenix",
-    "meta": "eustasy",
-    "time": "8w",
-    "url": "https://github.com/eustasy/Phoenix/releases/tag/v3.2.2"
   },
   {
     "type": "release",
