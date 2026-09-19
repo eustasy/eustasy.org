@@ -1,16 +1,24 @@
 [
   {
+    "type": "issue",
+    "title": "Changes to public index header-bar",
+    "repo": "Phoenix",
+    "meta": "#79",
+    "time": "1h",
+    "url": "https://github.com/eustasy/Phoenix/issues/79"
+  },
+  {
     "type": "discussion",
     "title": "Bump @vitest/coverage-v8 from 4.1.11 to 5.0.1",
     "repo": "puff-serverless",
     "meta": "1 reply",
-    "time": "6h",
+    "time": "9h",
     "url": "https://github.com/eustasy/puff-serverless/pull/136"
   },
   {
     "type": "issue",
     "repo": "puff-serverless",
     "meta": "#136",
-    "time": "7h"
+    "time": "9h"
   }
 ]
