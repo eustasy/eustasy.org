@@ -12,13 +12,5 @@
     "meta": "#79",
     "time": "3d",
     "url": "https://github.com/eustasy/Phoenix/issues/79"
-  },
-  {
-    "type": "discussion",
-    "title": "Bump @vitest/coverage-v8 from 4.1.11 to 5.0.1",
-    "repo": "puff-serverless",
-    "meta": "1 reply",
-    "time": "3d",
-    "url": "https://github.com/eustasy/puff-serverless/pull/136"
   }
 ]
