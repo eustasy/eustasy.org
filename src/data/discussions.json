@@ -1,8 +1,16 @@
 [
   {
+    "type": "discussion",
+    "title": "Bump vitest from 4.1.11 to 5.0.1 in /server",
+    "repo": "flame",
+    "meta": "1 reply",
+    "time": "2h",
+    "url": "https://github.com/eustasy-archive/flame/pull/1"
+  },
+  {
     "type": "issue",
-    "repo": "apple-silicon",
-    "meta": "#42",
-    "time": "23h"
+    "repo": "flame",
+    "meta": "#1",
+    "time": "3h"
   }
 ]
