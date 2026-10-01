@@ -103,44 +103,44 @@ const DESC_PREFIX_LANG = {
   'CHROME-THEME': 'html',
 };
 
+// Descriptions open with one or more upper-case TYPE tags, separated by `/`:
+// `PHP-LIB: …`, `EOL / STATIC-SITE: …`, `DEPRECATED / JS-LIB / PHP-LIB: …`.
+const PREFIX_RE = /^([A-Z][A-Z-]+(?:\s*\/\s*[A-Z][A-Z-]+)*)\s*[:.]\s*/;
+
+export function descriptionTags(desc) {
+  const m = (desc ?? '').match(PREFIX_RE);
+  return m ? m[1].split('/').map((t) => t.trim()) : [];
+}
+
 export function classifyLang(repo) {
   const name = repo.name || '';
   const isMeta = name.startsWith('.') && name !== '.ui';
   if (isMeta) return ['meta'];
   if (name === '.ui') return ['ui'];
-  // Description TYPE prefix overrides GitHub's auto-detected language.
-  const prefixMatch = (repo.description || '').match(/^([A-Z][A-Z-]*)\s*[:.]/);
-  if (prefixMatch) {
-    const lang = DESC_PREFIX_LANG[prefixMatch[1]];
-    if (lang) return [lang];
-  }
+  // Description TYPE tags override GitHub's auto-detected language.
+  const tagged = descriptionTags(repo.description).map((t) => DESC_PREFIX_LANG[t]).filter(Boolean);
+  if (tagged.length) return [...new Set(tagged)];
   const primary = repo.primaryLanguage?.name;
   let lang = LANG_MAP[primary] || 'html';
   if (lang === 'js' && /^jquery/i.test(name)) lang = 'jq';
   return [lang];
 }
 
-const STATUS_RE = {
-  eol: /^EOL\s*[:.]/i,
-  deprecated: /^DEPRECATED\s*[:.]/i,
-  alpha: /^ALPHA\s*[:.]/i,
-};
-
 export function classifyStatus(repo, org = '') {
   const name = repo.name || '';
-  const desc = repo.description || '';
+  const tags = descriptionTags(repo.description);
   if (name.startsWith('.') && name !== '.ui') return 'meta';
   if (org === 'eustasy-archive') return 'archived';
-  if (STATUS_RE.eol.test(desc)) return 'eol';
-  if (STATUS_RE.deprecated.test(desc)) return 'deprecated';
-  if (STATUS_RE.alpha.test(desc)) return 'alpha';
+  if (tags.includes('EOL')) return 'eol';
+  if (tags.includes('DEPRECATED')) return 'deprecated';
+  if (tags.includes('ALPHA')) return 'alpha';
   if (daysAgo(repo.pushedAt) < 30) return 'active';
   return 'stable';
 }
 
-// Strip any leading `TYPE:` prefix from descriptions so we don't double up.
+// Strip the leading TYPE tags from descriptions so we don't double up.
 export function cleanDescription(desc) {
-  return (desc ?? '').replace(/^(EOL|DEPRECATED|ALPHA|TYPE|CSS-LIB|BASH|PHP-LIB|PYTHON|JS-LIB|JQUERY|JQ-LIB|STATIC|STATIC-SITE|SITE|CHROME-THEME|LAB|META)\s*[:.]\s*/i, '').trim();
+  return (desc ?? '').replace(PREFIX_RE, '').trim();
 }
 
 export function repoOwnerName(fullName) {
