@@ -13,6 +13,12 @@ const featured: Repo[] = FEATURED_NAMES
   .filter((r): r is Repo => Boolean(r));
 
 const publicRepos = repos.filter((r) => !r.meta).length;
+const latestRelease = repos
+  .filter((r) => r.releaseAt && r.version && r.status !== 'archived')
+  .sort((a, b) => b.releaseAt!.localeCompare(a.releaseAt!))[0];
+const latestVersion = latestRelease?.version && /^\d/.test(latestRelease.version)
+  ? `v${latestRelease.version}`
+  : latestRelease?.version;
 const yearsShipping = `${new Date().getFullYear() - 2007} yrs`;
 
 const TYPE_LABEL: Record<string, string> = {
@@ -42,10 +48,12 @@ function shortTime(days: number) {
   <section class="hero">
     <div class="container hero-grid">
       <div class="hero-copy">
-        <span class="eyebrow">
-          <span class="dot" aria-hidden="true"></span>
-          puff‑server is now in alpha
-        </span>
+        {latestRelease && (
+          <span class="eyebrow">
+            <span class="dot" aria-hidden="true"></span>
+            Latest release: {latestRelease.name} {latestVersion}
+          </span>
+        )}
         <h1>Quiet infrastructure for the <em>vanilla web</em>.</h1>
         <p class="lead">eustasy is a small studio building open‑source tooling, libraries and configuration packs &mdash; and a handful of paid products that pay for the rest. HTML, CSS, and absolutely minimal JavaScript.</p>
         <div class="actions">
