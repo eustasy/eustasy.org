@@ -15,6 +15,22 @@ const {
   bodyDataScreen,
 } = Astro.props;
 
+import repos from '../data/repos.json';
+
+// Curated footer list; version/status badges come from the repos snapshot.
+const FOOTER_REPOS: [name: string, label?: string][] = [
+  ['.ui'], ['Phoenix'], ['Bubbly'], ['authenticatron'], ['Colors.css'],
+  ['jQuery.leanModal2', 'leanModal2'], ['browning'], ['Locksmith'], ['puff-serverless'],
+];
+const footerRepos = FOOTER_REPOS.flatMap(([name, label]) => {
+  const repo = repos.find((r) => r.name === name);
+  if (!repo) return [];
+  const version = repo.version && /^\d/.test(repo.version) ? `v${repo.version}` : repo.version;
+  const ext = version ?? (repo.status === 'active' || repo.status === 'stable' ? null : repo.status);
+  return [{ label: label ?? name, url: repo.url, ext }];
+});
+const currentYear = new Date().getFullYear();
+
 import '../styles/flexoki.css';
 import '../styles/reset.css';
 import '../styles/typography.css';
@@ -117,22 +133,16 @@ import '../styles/site.css';
           <div class="footer-col">
             <h4>Open source</h4>
             <ul class="two-col">
-              <li><a href="https://github.com/eustasy/.ui">.ui<span class="ext">beta</span></a></li>
-              <li><a href="https://github.com/eustasy/Phoenix">Phoenix<span class="ext">v3.2.0</span></a></li>
-              <li><a href="https://github.com/eustasy/Bubbly">Bubbly<span class="ext">v2.2.0</span></a></li>
-              <li><a href="https://github.com/eustasy/authenticatron">authenticatron<span class="ext">v4.1.0</span></a></li>
-              <li><a href="https://github.com/eustasy/Colors.css">Colors.css<span class="ext">v2.1.0</span></a></li>
-              <li><a href="https://github.com/eustasy/jQuery.leanModal2">leanModal2<span class="ext">v2.6.4</span></a></li>
-              <li><a href="https://github.com/eustasy/browning">browning<span class="ext">v0.30</span></a></li>
-              <li><a href="https://github.com/eustasy/Locksmith">Locksmith<span class="ext">alpha</span></a></li>
-              <li><a href="https://github.com/eustasy/puff-serverless">puff-serverless<span class="ext">alpha</span></a></li>
+              {footerRepos.map((r) => (
+                <li><a href={r.url}>{r.label}{r.ext && <span class="ext">{r.ext}</span>}</a></li>
+              ))}
               <li><a class="all-link" href="/open-source">All repos →</a></li>
             </ul>
           </div>
         </div>
 
         <div class="footer-bottom">
-          <span>© eustasy 2007–2026 · MIT licensed where it can be · Built with .ui</span>
+          <span>© eustasy 2007–{currentYear} · MIT licensed where it can be · Built with .ui</span>
           <span><a href="https://github.com/eustasy">github.com/eustasy</a></span>
         </div>
       </div>
@@ -140,7 +150,7 @@ import '../styles/site.css';
   ) : (
     <footer class="site-footer compact">
       <div class="container row">
-        <span>© eustasy 2007–2026 · MIT licensed where it can be</span>
+        <span>© eustasy 2007–{currentYear} · MIT licensed where it can be</span>
         <span><a href="https://github.com/eustasy">github.com/eustasy</a></span>
       </div>
     </footer>
