@@ -11,7 +11,7 @@
     "primaryLang": "html",
     "status": "active",
     "updated": 0,
-    "updatedRel": "2m ago",
+    "updatedRel": "3h ago",
     "version": null,
     "releaseUrl": null,
     "releaseAt": null,
@@ -29,7 +29,7 @@
     "primaryLang": "bash",
     "status": "active",
     "updated": 0,
-    "updatedRel": "28m ago",
+    "updatedRel": "6h ago",
     "version": "3.0",
     "releaseUrl": "https://github.com/eustasy/Bubbly/releases/tag/3.0",
     "releaseAt": "2026-09-10T03:26:46Z",
@@ -47,7 +47,7 @@
     "primaryLang": "js",
     "status": "alpha",
     "updated": 0,
-    "updatedRel": "1h ago",
+    "updatedRel": "7h ago",
     "version": null,
     "releaseUrl": null,
     "releaseAt": null,
@@ -65,10 +65,46 @@
     "primaryLang": "php",
     "status": "active",
     "updated": 0,
-    "updatedRel": "4h ago",
+    "updatedRel": "10h ago",
     "version": "v5.0",
     "releaseUrl": "https://github.com/eustasy/Phoenix/releases/tag/v5.0",
     "releaseAt": "2026-09-12T07:20:20Z",
+    "meta": false
+  },
+  {
+    "name": "flame",
+    "ns": "eustasy-archive",
+    "desc": "",
+    "url": "https://github.com/eustasy-archive/flame",
+    "stars": 0,
+    "langs": [
+      "js"
+    ],
+    "primaryLang": "js",
+    "status": "archived",
+    "updated": 0,
+    "updatedRel": "4h ago",
+    "version": null,
+    "releaseUrl": null,
+    "releaseAt": null,
+    "meta": false
+  },
+  {
+    "name": "jQuery.equalize",
+    "ns": "eustasy-archive",
+    "desc": "A small jQuery plugin to equalize the height of elements within groups, or the entire page.",
+    "url": "https://github.com/eustasy-archive/jQuery.equalize",
+    "stars": 7,
+    "langs": [
+      "jq"
+    ],
+    "primaryLang": "jq",
+    "status": "archived",
+    "updated": 0,
+    "updatedRel": "5h ago",
+    "version": "1.8.0",
+    "releaseUrl": "https://github.com/eustasy-archive/jQuery.equalize/releases/tag/1.8.0",
+    "releaseAt": "2017-10-26T00:19:27Z",
     "meta": false
   },
   {
@@ -100,24 +136,6 @@
     ],
     "primaryLang": "html",
     "status": "active",
-    "updated": 5,
-    "updatedRel": "5d ago",
-    "version": null,
-    "releaseUrl": null,
-    "releaseAt": null,
-    "meta": false
-  },
-  {
-    "name": "flame",
-    "ns": "eustasy-archive",
-    "desc": "",
-    "url": "https://github.com/eustasy-archive/flame",
-    "stars": 0,
-    "langs": [
-      "js"
-    ],
-    "primaryLang": "js",
-    "status": "archived",
     "updated": 5,
     "updatedRel": "5d ago",
     "version": null,
@@ -162,78 +180,6 @@
     "meta": false
   },
   {
-    "name": "authenticatron",
-    "ns": "eustasy",
-    "desc": "HOTP / TOTP secrets with corresponding QR links and code verification from a simple PHP script.",
-    "url": "https://github.com/eustasy/authenticatron",
-    "stars": 11,
-    "langs": [
-      "php"
-    ],
-    "primaryLang": "php",
-    "status": "active",
-    "updated": 11,
-    "updatedRel": "2w ago",
-    "version": "v4.1.1",
-    "releaseUrl": "https://github.com/eustasy/authenticatron/releases/tag/v4.1.1",
-    "releaseAt": "2026-05-31T21:02:39Z",
-    "meta": false
-  },
-  {
-    "name": "Colors.css",
-    "ns": "eustasy",
-    "desc": "A colors stylesheet for backgrounds and fonts with the colors from various sources.",
-    "url": "https://github.com/eustasy/Colors.css",
-    "stars": 8,
-    "langs": [
-      "css"
-    ],
-    "primaryLang": "css",
-    "status": "active",
-    "updated": 11,
-    "updatedRel": "2w ago",
-    "version": "2.1.1",
-    "releaseUrl": "https://github.com/eustasy/Colors.css/releases/tag/2.1.1",
-    "releaseAt": "2026-06-01T11:15:09Z",
-    "meta": false
-  },
-  {
-    "name": "jQuery.leanModal2",
-    "ns": "eustasy",
-    "desc": "A pure solution to putting your own HTML and CSS to work as a modal dialogue.",
-    "url": "https://github.com/eustasy/jQuery.leanModal2",
-    "stars": 4,
-    "langs": [
-      "jq"
-    ],
-    "primaryLang": "jq",
-    "status": "active",
-    "updated": 11,
-    "updatedRel": "2w ago",
-    "version": "2.6.4",
-    "releaseUrl": "https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.4",
-    "releaseAt": "2026-05-03T01:52:53Z",
-    "meta": false
-  },
-  {
-    "name": "browning",
-    "ns": "eustasy",
-    "desc": "Browning is a tiny PHP function to send emails with Mailgun, that uses CURL instead of Mailgun's (slightly porky) library.",
-    "url": "https://github.com/eustasy/browning",
-    "stars": 3,
-    "langs": [
-      "php"
-    ],
-    "primaryLang": "php",
-    "status": "active",
-    "updated": 11,
-    "updatedRel": "2w ago",
-    "version": "1.31",
-    "releaseUrl": "https://github.com/eustasy/browning/releases/tag/1.31",
-    "releaseAt": "2026-05-31T15:38:35Z",
-    "meta": false
-  },
-  {
     "name": "extensions.eustasy.org",
     "ns": "eustasy-archive",
     "desc": "eustasy Extensions",
@@ -252,6 +198,78 @@
     "meta": false
   },
   {
+    "name": "authenticatron",
+    "ns": "eustasy",
+    "desc": "HOTP / TOTP secrets with corresponding QR links and code verification from a simple PHP script.",
+    "url": "https://github.com/eustasy/authenticatron",
+    "stars": 11,
+    "langs": [
+      "php"
+    ],
+    "primaryLang": "php",
+    "status": "active",
+    "updated": 12,
+    "updatedRel": "2w ago",
+    "version": "v4.1.1",
+    "releaseUrl": "https://github.com/eustasy/authenticatron/releases/tag/v4.1.1",
+    "releaseAt": "2026-05-31T21:02:39Z",
+    "meta": false
+  },
+  {
+    "name": "Colors.css",
+    "ns": "eustasy",
+    "desc": "A colors stylesheet for backgrounds and fonts with the colors from various sources.",
+    "url": "https://github.com/eustasy/Colors.css",
+    "stars": 8,
+    "langs": [
+      "css"
+    ],
+    "primaryLang": "css",
+    "status": "active",
+    "updated": 12,
+    "updatedRel": "2w ago",
+    "version": "2.1.1",
+    "releaseUrl": "https://github.com/eustasy/Colors.css/releases/tag/2.1.1",
+    "releaseAt": "2026-06-01T11:15:09Z",
+    "meta": false
+  },
+  {
+    "name": "jQuery.leanModal2",
+    "ns": "eustasy",
+    "desc": "A pure solution to putting your own HTML and CSS to work as a modal dialogue.",
+    "url": "https://github.com/eustasy/jQuery.leanModal2",
+    "stars": 4,
+    "langs": [
+      "jq"
+    ],
+    "primaryLang": "jq",
+    "status": "active",
+    "updated": 12,
+    "updatedRel": "2w ago",
+    "version": "2.6.4",
+    "releaseUrl": "https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.4",
+    "releaseAt": "2026-05-03T01:52:53Z",
+    "meta": false
+  },
+  {
+    "name": "browning",
+    "ns": "eustasy",
+    "desc": "Browning is a tiny PHP function to send emails with Mailgun, that uses CURL instead of Mailgun's (slightly porky) library.",
+    "url": "https://github.com/eustasy/browning",
+    "stars": 3,
+    "langs": [
+      "php"
+    ],
+    "primaryLang": "php",
+    "status": "active",
+    "updated": 12,
+    "updatedRel": "2w ago",
+    "version": "1.31",
+    "releaseUrl": "https://github.com/eustasy/browning/releases/tag/1.31",
+    "releaseAt": "2026-05-31T15:38:35Z",
+    "meta": false
+  },
+  {
     "name": "elementary-bluetooth-proximity-locker",
     "ns": "eustasy",
     "desc": "Lock/unlock computer based on proximity of bluetooth device",
@@ -262,29 +280,11 @@
     ],
     "primaryLang": "python",
     "status": "stable",
-    "updated": 118,
+    "updated": 119,
     "updatedRel": "4mo ago",
     "version": null,
     "releaseUrl": null,
     "releaseAt": null,
-    "meta": false
-  },
-  {
-    "name": "jQuery.equalize",
-    "ns": "eustasy-archive",
-    "desc": "A small jQuery plugin to equalize the height of elements within groups, or the entire page.",
-    "url": "https://github.com/eustasy-archive/jQuery.equalize",
-    "stars": 7,
-    "langs": [
-      "jq"
-    ],
-    "primaryLang": "jq",
-    "status": "archived",
-    "updated": 133,
-    "updatedRel": "4mo ago",
-    "version": "1.8.0",
-    "releaseUrl": "https://github.com/eustasy-archive/jQuery.equalize/releases/tag/1.8.0",
-    "releaseAt": "2017-10-26T00:19:27Z",
     "meta": false
   },
   {
@@ -479,7 +479,7 @@
     ],
     "primaryLang": "html",
     "status": "archived",
-    "updated": 3052,
+    "updated": 3053,
     "updatedRel": "8y ago",
     "version": null,
     "releaseUrl": null,
@@ -534,7 +534,7 @@
     "primaryLang": "meta",
     "status": "meta",
     "updated": 0,
-    "updatedRel": "2h ago",
+    "updatedRel": "8h ago",
     "version": null,
     "releaseUrl": null,
     "releaseAt": null,
@@ -552,7 +552,7 @@
     "primaryLang": "meta",
     "status": "meta",
     "updated": 0,
-    "updatedRel": "12h ago",
+    "updatedRel": "18h ago",
     "version": null,
     "releaseUrl": null,
     "releaseAt": null,
