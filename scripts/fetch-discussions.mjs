@@ -7,7 +7,7 @@
 
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import { TOKEN, stableStringify } from './lib/github.mjs';
+import { TOKEN, restGet, stableStringify } from './lib/github.mjs';
 import { fetchOrgEvents, repoShortName, eventTime } from './lib/events.mjs';
 
 const OUT = 'src/data/discussions.json';
@@ -27,17 +27,28 @@ function fromIssue(e) {
   };
 }
 
-function fromPR(e) {
+// PullRequestEvent payloads are trimmed to { url, id, number, head, base } —
+// no title or html_url — so build the link and fetch the title ourselves.
+async function fromPR(e) {
   if (e.payload?.action !== 'opened') return null;
   const pr = e.payload.pull_request;
   if (!pr) return null;
+  let title = pr.title;
+  if (!title) {
+    try {
+      title = (await restGet(`/repos/${e.repo.name}/pulls/${pr.number}`))?.title;
+    } catch (err) {
+      console.warn(`Failed to fetch ${e.repo.name}#${pr.number}: ${err.message}`);
+    }
+    if (!title) return null;
+  }
   return {
     type: 'issue',
-    title: pr.title,
+    title,
     repo: repoShortName(e.repo.name),
     meta: `#${pr.number}`,
     time: eventTime(e.created_at),
-    url: pr.html_url,
+    url: `https://github.com/${e.repo.name}/pull/${pr.number}`,
   };
 }
 
@@ -68,7 +79,7 @@ async function main() {
     if (out.length >= LIMIT) break;
     let entry = null;
     if (e.type === 'IssuesEvent') entry = fromIssue(e);
-    else if (e.type === 'PullRequestEvent') entry = fromPR(e);
+    else if (e.type === 'PullRequestEvent') entry = await fromPR(e);
     else if (e.type === 'IssueCommentEvent') entry = fromComment(e);
     if (!entry) continue;
     if (seen.has(entry.url)) continue;
