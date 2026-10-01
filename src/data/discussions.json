@@ -1,10 +1,18 @@
 [
   {
     "type": "issue",
+    "title": "Bump the npm-patching group with 9 updates",
+    "repo": "apple-silicon",
+    "meta": "#43",
+    "time": "2h",
+    "url": "https://github.com/eustasy/apple-silicon/pull/43"
+  },
+  {
+    "type": "issue",
     "title": "Bump the npm-patching group in /server with 2 updates",
     "repo": "flame",
     "meta": "#2",
-    "time": "8h",
+    "time": "14h",
     "url": "https://github.com/eustasy-archive/flame/pull/2"
   },
   {
@@ -12,7 +20,7 @@
     "title": "Bump the npm-patching group across 1 directory with 54 updates",
     "repo": "puff-serverless",
     "meta": "1 reply",
-    "time": "12h",
+    "time": "18h",
     "url": "https://github.com/eustasy/puff-serverless/pull/137"
   },
   {
@@ -20,7 +28,7 @@
     "title": "Bump qltysh/qlty-action/coverage from 2.3.0 to 2.4.0 in the github-actions-patching group",
     "repo": "Phoenix",
     "meta": "#80",
-    "time": "15h",
+    "time": "21h",
     "url": "https://github.com/eustasy/Phoenix/pull/80"
   },
   {
@@ -28,15 +36,7 @@
     "title": "Bump prettier from 3.9.8 to 3.9.9 in the npm-patching group",
     "repo": ".ui",
     "meta": "#12",
-    "time": "2d",
+    "time": "3d",
     "url": "https://github.com/eustasy/.ui/pull/12"
-  },
-  {
-    "type": "issue",
-    "title": "Bump the gha-patching group across 15 directories with 2 updates",
-    "repo": ".normal",
-    "meta": "#91",
-    "time": "2d",
-    "url": "https://github.com/eustasy/.normal/pull/91"
   }
 ]
