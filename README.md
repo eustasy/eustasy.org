@@ -2,7 +2,7 @@
 
 Static site for [eustasy](https://github.com/eustasy) — products, open-source
 index, activity feed. Built with [Astro](https://astro.build/) on
-[Bun](https://bun.sh/), deployed to GitHub Pages.
+[Bun](https://bun.sh/), deployed to Cloudflare Workers as static assets.
 
 The activity feed, repo grid, and stats are sourced from the GitHub API by
 scheduled GitHub Actions workflows that snapshot data into `src/data/*.json`.
@@ -32,14 +32,16 @@ src/
     commits.json               # commit + release feed — refreshed every 2h
     discussions.json           # issue + discussion feed — refreshed every 2h
 public/                        # favicon, robots.txt, brand marks
+wrangler.toml                  # Cloudflare Workers config — serves dist/
 scripts/
   lib/{github,events}.mjs      # shared API helpers
   fetch-{repos,commits,discussions}.mjs
 .github/workflows/
-  deploy.yml                   # push to main → build → Pages
   refresh-repos.yml            # daily 06:00 UTC
   refresh-commits.yml          # every 2h on the hour
   refresh-discussions.yml      # every 2h, 30min offset
+  lockfile-check.yml           # bun.lock matches package.json
+  dependabot-lockfile.yml      # regenerates bun.lock on Dependabot PRs
 _legacy/                       # the old PHP site, kept for reference
 ```
 
@@ -90,11 +92,19 @@ small slug taxonomy (`css`, `js`, `php`, `python`, `bash`, `html`, `jq`,
 
 ## Deployment
 
-`deploy.yml` runs on every push to `main` (including the data-refresh
-commits). It runs `bun install`, `bun run build`, uploads `dist/` as a Pages
-artifact, and deploys.
+The site is a static-assets-only Cloudflare Worker. `wrangler.toml` points
+the Worker at `./dist`; there's no Worker script.
 
-GitHub Pages must be set to **Source: GitHub Actions** in repo settings.
+Cloudflare's Git integration builds and deploys on every push to `cf-pages`,
+including the data-refresh commits — that's how the snapshots reach the live
+site. Build settings live in the Cloudflare dashboard, not in this repo.
+
+To deploy by hand (needs Cloudflare credentials, e.g. `bunx wrangler login`):
+
+```sh
+bun run build
+bunx wrangler deploy
+```
 
 ## Adding a product, page, or section
 
@@ -102,6 +112,8 @@ GitHub Pages must be set to **Source: GitHub Actions** in repo settings.
   `SiteLayout`.
 - Featured repos on the homepage: edit the `FEATURED_NAMES` list in
   `src/pages/index.astro`. Names must match `name` in `repos.json`.
+- Repos in the footer: edit `FOOTER_REPOS` in `src/layouts/SiteLayout.astro`.
+  Versions and status badges come from `repos.json`.
 - New repo classification rule: edit `classifyStatus` / `classifyLang` in
   `scripts/lib/github.mjs`.
 - New activity event type: extend `fromX` cases in `scripts/fetch-commits.mjs`
