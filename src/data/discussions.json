@@ -1,10 +1,18 @@
 [
   {
+    "type": "issue",
+    "title": "Bump the npm-patching group in /server with 2 updates",
+    "repo": "flame",
+    "meta": "#2",
+    "time": "53m",
+    "url": "https://github.com/eustasy-archive/flame/pull/2"
+  },
+  {
     "type": "discussion",
     "title": "Bump the npm-patching group across 1 directory with 54 updates",
     "repo": "puff-serverless",
     "meta": "1 reply",
-    "time": "1h",
+    "time": "4h",
     "url": "https://github.com/eustasy/puff-serverless/pull/137"
   },
   {
@@ -12,7 +20,7 @@
     "title": "Bump qltysh/qlty-action/coverage from 2.3.0 to 2.4.0 in the github-actions-patching group",
     "repo": "Phoenix",
     "meta": "#80",
-    "time": "5h",
+    "time": "7h",
     "url": "https://github.com/eustasy/Phoenix/pull/80"
   },
   {
@@ -30,13 +38,5 @@
     "meta": "#91",
     "time": "2d",
     "url": "https://github.com/eustasy/.normal/pull/91"
-  },
-  {
-    "type": "discussion",
-    "title": "Bump vitest from 4.1.11 to 5.0.1 in /server",
-    "repo": "flame",
-    "meta": "1 reply",
-    "time": "5d",
-    "url": "https://github.com/eustasy-archive/flame/pull/1"
   }
 ]
