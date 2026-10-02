@@ -1,10 +1,18 @@
 [
   {
+    "type": "issue",
+    "title": "Bump the npm-patching group in /server with 2 updates",
+    "repo": "flame",
+    "meta": "#3",
+    "time": "4h",
+    "url": "https://github.com/eustasy-archive/flame/pull/3"
+  },
+  {
     "type": "discussion",
     "title": "Bump the bun-patching group with 60 updates",
     "repo": "eustasy.org",
     "meta": "1 reply",
-    "time": "5h",
+    "time": "12h",
     "url": "https://github.com/eustasy/eustasy.org/pull/19"
   },
   {
@@ -12,7 +20,7 @@
     "title": "Bump the npm-patching group with 9 updates",
     "repo": "apple-silicon",
     "meta": "#43",
-    "time": "10h",
+    "time": "17h",
     "url": "https://github.com/eustasy/apple-silicon/pull/43"
   },
   {
@@ -20,7 +28,7 @@
     "title": "Bump the npm-patching group in /server with 2 updates",
     "repo": "flame",
     "meta": "#2",
-    "time": "21h",
+    "time": "1d",
     "url": "https://github.com/eustasy-archive/flame/pull/2"
   },
   {
@@ -30,13 +38,5 @@
     "meta": "1 reply",
     "time": "1d",
     "url": "https://github.com/eustasy/puff-serverless/pull/137"
-  },
-  {
-    "type": "issue",
-    "title": "Bump qltysh/qlty-action/coverage from 2.3.0 to 2.4.0 in the github-actions-patching group",
-    "repo": "Phoenix",
-    "meta": "#80",
-    "time": "1d",
-    "url": "https://github.com/eustasy/Phoenix/pull/80"
   }
 ]
