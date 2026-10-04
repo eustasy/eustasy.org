@@ -4,7 +4,7 @@
     "title": "Bump the npm-patching group in /server with 2 updates",
     "repo": "flame",
     "meta": "#3",
-    "time": "1d",
+    "time": "2d",
     "url": "https://github.com/eustasy-archive/flame/pull/3"
   },
   {
@@ -28,7 +28,7 @@
     "title": "Bump the npm-patching group in /server with 2 updates",
     "repo": "flame",
     "meta": "#2",
-    "time": "2d",
+    "time": "3d",
     "url": "https://github.com/eustasy-archive/flame/pull/2"
   },
   {
@@ -36,7 +36,7 @@
     "title": "Bump the npm-patching group across 1 directory with 54 updates",
     "repo": "puff-serverless",
     "meta": "1 reply",
-    "time": "2d",
+    "time": "3d",
     "url": "https://github.com/eustasy/puff-serverless/pull/137"
   }
 ]
