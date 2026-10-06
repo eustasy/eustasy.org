@@ -4,7 +4,7 @@
     "title": "Bump the npm-patching group in /server with 2 updates",
     "repo": "flame",
     "meta": "#5",
-    "time": "7h",
+    "time": "12h",
     "url": "https://github.com/eustasy-archive/flame/pull/5"
   },
   {
@@ -36,7 +36,7 @@
     "title": "Bump the npm-patching group with 9 updates",
     "repo": "apple-silicon",
     "meta": "#43",
-    "time": "4d",
+    "time": "5d",
     "url": "https://github.com/eustasy/apple-silicon/pull/43"
   }
 ]
