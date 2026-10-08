@@ -1,10 +1,18 @@
 [
   {
     "type": "issue",
+    "title": "Bump jsdom from 30.1.1 to 30.1.2 in /server in the npm-patching group",
+    "repo": "flame",
+    "meta": "#6",
+    "time": "5h",
+    "url": "https://github.com/eustasy-archive/flame/pull/6"
+  },
+  {
+    "type": "issue",
     "title": "Bump the npm-patching group in /server with 2 updates",
     "repo": "flame",
     "meta": "#5",
-    "time": "1d",
+    "time": "2d",
     "url": "https://github.com/eustasy-archive/flame/pull/5"
   },
   {
@@ -12,7 +20,7 @@
     "title": "Bump the npm-patching group in /server with 2 updates",
     "repo": "flame",
     "meta": "#4",
-    "time": "2d",
+    "time": "3d",
     "url": "https://github.com/eustasy-archive/flame/pull/4"
   },
   {
@@ -20,7 +28,7 @@
     "title": "Bump the npm-patching group in /server with 2 updates",
     "repo": "flame",
     "meta": "#3",
-    "time": "5d",
+    "time": "6d",
     "url": "https://github.com/eustasy-archive/flame/pull/3"
   },
   {
@@ -30,13 +38,5 @@
     "meta": "1 reply",
     "time": "6d",
     "url": "https://github.com/eustasy/eustasy.org/pull/19"
-  },
-  {
-    "type": "issue",
-    "title": "Bump the npm-patching group with 9 updates",
-    "repo": "apple-silicon",
-    "meta": "#43",
-    "time": "6d",
-    "url": "https://github.com/eustasy/apple-silicon/pull/43"
   }
 ]
