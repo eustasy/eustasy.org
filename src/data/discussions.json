@@ -4,7 +4,7 @@
     "title": "Bump the npm-patching group in /server with 2 updates",
     "repo": "flame",
     "meta": "#7",
-    "time": "6h",
+    "time": "15h",
     "url": "https://github.com/eustasy-archive/flame/pull/7"
   },
   {
@@ -20,7 +20,7 @@
     "title": "Bump jsdom from 30.1.1 to 30.1.2 in /server in the npm-patching group",
     "repo": "flame",
     "meta": "#6",
-    "time": "4d",
+    "time": "5d",
     "url": "https://github.com/eustasy-archive/flame/pull/6"
   },
   {
@@ -28,7 +28,7 @@
     "title": "Bump the npm-patching group in /server with 2 updates",
     "repo": "flame",
     "meta": "#5",
-    "time": "6d",
+    "time": "1w",
     "url": "https://github.com/eustasy-archive/flame/pull/5"
   },
   {
