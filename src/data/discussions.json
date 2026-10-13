@@ -1,6 +1,14 @@
 [
   {
     "type": "issue",
+    "title": "Bump the npm-patching group in /server with 2 updates",
+    "repo": "flame",
+    "meta": "#7",
+    "time": "6h",
+    "url": "https://github.com/eustasy-archive/flame/pull/7"
+  },
+  {
+    "type": "issue",
     "title": "Bump the npm-patching group with 11 updates",
     "repo": "apple-silicon",
     "meta": "#44",
@@ -30,13 +38,5 @@
     "meta": "#4",
     "time": "1w",
     "url": "https://github.com/eustasy-archive/flame/pull/4"
-  },
-  {
-    "type": "issue",
-    "title": "Bump the npm-patching group in /server with 2 updates",
-    "repo": "flame",
-    "meta": "#3",
-    "time": "1w",
-    "url": "https://github.com/eustasy-archive/flame/pull/3"
   }
 ]
