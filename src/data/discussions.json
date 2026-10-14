@@ -4,7 +4,7 @@
     "title": "Bump prettier from 3.9.9 to 3.9.10 in the npm-patching group",
     "repo": ".ui",
     "meta": "#13",
-    "time": "17h",
+    "time": "22h",
     "url": "https://github.com/eustasy/.ui/pull/13"
   },
   {
@@ -12,7 +12,7 @@
     "title": "Bump shivammathur/setup-php from 2.37.2 to 2.40.0 in /php/setup in the gha-patching group across 1 directory",
     "repo": ".normal",
     "meta": "#92",
-    "time": "20h",
+    "time": "1d",
     "url": "https://github.com/eustasy/.normal/pull/92"
   },
   {
@@ -28,7 +28,7 @@
     "title": "Bump the npm-patching group with 11 updates",
     "repo": "apple-silicon",
     "meta": "#44",
-    "time": "5d",
+    "time": "6d",
     "url": "https://github.com/eustasy/apple-silicon/pull/44"
   },
   {
