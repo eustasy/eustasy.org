@@ -1,6 +1,14 @@
 [
   {
     "type": "issue",
+    "title": "Bump the npm-patching group with 63 updates",
+    "repo": "apple-silicon",
+    "meta": "#45",
+    "time": "1h",
+    "url": "https://github.com/eustasy/apple-silicon/pull/45"
+  },
+  {
+    "type": "issue",
     "title": "Bump prettier from 3.9.9 to 3.9.10 in the npm-patching group",
     "repo": ".ui",
     "meta": "#13",
@@ -22,14 +30,6 @@
     "meta": "#7",
     "time": "2d",
     "url": "https://github.com/eustasy-archive/flame/pull/7"
-  },
-  {
-    "type": "issue",
-    "title": "Bump the npm-patching group with 11 updates",
-    "repo": "apple-silicon",
-    "meta": "#44",
-    "time": "6d",
-    "url": "https://github.com/eustasy/apple-silicon/pull/44"
   },
   {
     "type": "issue",
