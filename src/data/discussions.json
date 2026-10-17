@@ -20,7 +20,7 @@
     "title": "Bump shivammathur/setup-php from 2.37.2 to 2.40.0 in /php/setup in the gha-patching group across 1 directory",
     "repo": ".normal",
     "meta": "#92",
-    "time": "2d",
+    "time": "3d",
     "url": "https://github.com/eustasy/.normal/pull/92"
   },
   {
@@ -28,7 +28,7 @@
     "title": "Bump the npm-patching group in /server with 2 updates",
     "repo": "flame",
     "meta": "#7",
-    "time": "3d",
+    "time": "4d",
     "url": "https://github.com/eustasy-archive/flame/pull/7"
   },
   {
