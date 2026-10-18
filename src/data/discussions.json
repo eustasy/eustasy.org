@@ -4,7 +4,7 @@
     "title": "Bump the npm-patching group with 63 updates",
     "repo": "apple-silicon",
     "meta": "#45",
-    "time": "2d",
+    "time": "3d",
     "url": "https://github.com/eustasy/apple-silicon/pull/45"
   },
   {
@@ -20,7 +20,7 @@
     "title": "Bump shivammathur/setup-php from 2.37.2 to 2.40.0 in /php/setup in the gha-patching group across 1 directory",
     "repo": ".normal",
     "meta": "#92",
-    "time": "4d",
+    "time": "5d",
     "url": "https://github.com/eustasy/.normal/pull/92"
   },
   {
