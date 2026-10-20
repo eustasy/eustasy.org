@@ -4,7 +4,7 @@
     "title": "Bump the npm-patching group in /server with 4 updates",
     "repo": "flame",
     "meta": "#8",
-    "time": "15h",
+    "time": "20h",
     "url": "https://github.com/eustasy-archive/flame/pull/8"
   },
   {
@@ -20,7 +20,7 @@
     "title": "Bump prettier from 3.9.9 to 3.9.10 in the npm-patching group",
     "repo": ".ui",
     "meta": "#13",
-    "time": "5d",
+    "time": "6d",
     "url": "https://github.com/eustasy/.ui/pull/13"
   },
   {
@@ -36,7 +36,7 @@
     "title": "Bump the npm-patching group in /server with 2 updates",
     "repo": "flame",
     "meta": "#7",
-    "time": "6d",
+    "time": "1w",
     "url": "https://github.com/eustasy-archive/flame/pull/7"
   }
 ]
