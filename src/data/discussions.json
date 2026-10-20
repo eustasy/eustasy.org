@@ -1,10 +1,18 @@
 [
   {
     "type": "issue",
+    "title": "Bump the npm-patching group in /server with 2 updates",
+    "repo": "flame",
+    "meta": "#9",
+    "time": "3h",
+    "url": "https://github.com/eustasy-archive/flame/pull/9"
+  },
+  {
+    "type": "issue",
     "title": "Bump the npm-patching group in /server with 4 updates",
     "repo": "flame",
     "meta": "#8",
-    "time": "20h",
+    "time": "1d",
     "url": "https://github.com/eustasy-archive/flame/pull/8"
   },
   {
@@ -30,13 +38,5 @@
     "meta": "#92",
     "time": "6d",
     "url": "https://github.com/eustasy/.normal/pull/92"
-  },
-  {
-    "type": "issue",
-    "title": "Bump the npm-patching group in /server with 2 updates",
-    "repo": "flame",
-    "meta": "#7",
-    "time": "1w",
-    "url": "https://github.com/eustasy-archive/flame/pull/7"
   }
 ]
