@@ -1,10 +1,18 @@
 [
   {
     "type": "issue",
+    "title": "Bump vite from 8.3.1 to 8.3.4",
+    "repo": "puff-serverless",
+    "meta": "#138",
+    "time": "7h",
+    "url": "https://github.com/eustasy/puff-serverless/pull/138"
+  },
+  {
+    "type": "issue",
     "title": "Bump the npm-patching group in /server with 2 updates",
     "repo": "flame",
     "meta": "#9",
-    "time": "16h",
+    "time": "23h",
     "url": "https://github.com/eustasy-archive/flame/pull/9"
   },
   {
@@ -28,15 +36,7 @@
     "title": "Bump prettier from 3.9.9 to 3.9.10 in the npm-patching group",
     "repo": ".ui",
     "meta": "#13",
-    "time": "6d",
-    "url": "https://github.com/eustasy/.ui/pull/13"
-  },
-  {
-    "type": "issue",
-    "title": "Bump shivammathur/setup-php from 2.37.2 to 2.40.0 in /php/setup in the gha-patching group across 1 directory",
-    "repo": ".normal",
-    "meta": "#92",
     "time": "1w",
-    "url": "https://github.com/eustasy/.normal/pull/92"
+    "url": "https://github.com/eustasy/.ui/pull/13"
   }
 ]
