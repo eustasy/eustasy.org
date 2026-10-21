@@ -4,7 +4,7 @@
     "title": "Bump sharp and wrangler",
     "repo": "puff-serverless",
     "meta": "#139",
-    "time": "42m",
+    "time": "5h",
     "url": "https://github.com/eustasy/puff-serverless/pull/139"
   },
   {
@@ -12,7 +12,7 @@
     "title": "Bump vite from 8.3.1 to 8.3.4",
     "repo": "puff-serverless",
     "meta": "#138",
-    "time": "13h",
+    "time": "17h",
     "url": "https://github.com/eustasy/puff-serverless/pull/138"
   },
   {
