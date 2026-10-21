@@ -1,10 +1,18 @@
 [
   {
     "type": "issue",
+    "title": "Bump sharp and wrangler",
+    "repo": "puff-serverless",
+    "meta": "#139",
+    "time": "42m",
+    "url": "https://github.com/eustasy/puff-serverless/pull/139"
+  },
+  {
+    "type": "issue",
     "title": "Bump vite from 8.3.1 to 8.3.4",
     "repo": "puff-serverless",
     "meta": "#138",
-    "time": "7h",
+    "time": "13h",
     "url": "https://github.com/eustasy/puff-serverless/pull/138"
   },
   {
@@ -12,7 +20,7 @@
     "title": "Bump the npm-patching group in /server with 2 updates",
     "repo": "flame",
     "meta": "#9",
-    "time": "23h",
+    "time": "1d",
     "url": "https://github.com/eustasy-archive/flame/pull/9"
   },
   {
@@ -20,7 +28,7 @@
     "title": "Bump the npm-patching group in /server with 4 updates",
     "repo": "flame",
     "meta": "#8",
-    "time": "1d",
+    "time": "2d",
     "url": "https://github.com/eustasy-archive/flame/pull/8"
   },
   {
@@ -30,13 +38,5 @@
     "meta": "#45",
     "time": "5d",
     "url": "https://github.com/eustasy/apple-silicon/pull/45"
-  },
-  {
-    "type": "issue",
-    "title": "Bump prettier from 3.9.9 to 3.9.10 in the npm-patching group",
-    "repo": ".ui",
-    "meta": "#13",
-    "time": "1w",
-    "url": "https://github.com/eustasy/.ui/pull/13"
   }
 ]
