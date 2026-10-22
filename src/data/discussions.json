@@ -1,6 +1,22 @@
 [
   {
     "type": "issue",
+    "title": "Bump markdown-it from 14.3.2 to 14.3.3",
+    "repo": "apple-silicon",
+    "meta": "#47",
+    "time": "2h",
+    "url": "https://github.com/eustasy/apple-silicon/pull/47"
+  },
+  {
+    "type": "issue",
+    "title": "Bump the npm-patching group with 17 updates",
+    "repo": "apple-silicon",
+    "meta": "#46",
+    "time": "2h",
+    "url": "https://github.com/eustasy/apple-silicon/pull/46"
+  },
+  {
+    "type": "issue",
     "title": "Bump sharp and wrangler",
     "repo": "puff-serverless",
     "meta": "#139",
@@ -22,21 +38,5 @@
     "meta": "#9",
     "time": "2d",
     "url": "https://github.com/eustasy-archive/flame/pull/9"
-  },
-  {
-    "type": "issue",
-    "title": "Bump the npm-patching group in /server with 4 updates",
-    "repo": "flame",
-    "meta": "#8",
-    "time": "3d",
-    "url": "https://github.com/eustasy-archive/flame/pull/8"
-  },
-  {
-    "type": "issue",
-    "title": "Bump the npm-patching group with 63 updates",
-    "repo": "apple-silicon",
-    "meta": "#45",
-    "time": "6d",
-    "url": "https://github.com/eustasy/apple-silicon/pull/45"
   }
 ]
