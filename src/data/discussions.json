@@ -4,7 +4,7 @@
     "title": "Bump sharp and wrangler",
     "repo": "puff-serverless",
     "meta": "#139",
-    "time": "15h",
+    "time": "22h",
     "url": "https://github.com/eustasy/puff-serverless/pull/139"
   },
   {
@@ -20,7 +20,7 @@
     "title": "Bump the npm-patching group in /server with 2 updates",
     "repo": "flame",
     "meta": "#9",
-    "time": "1d",
+    "time": "2d",
     "url": "https://github.com/eustasy-archive/flame/pull/9"
   },
   {
@@ -28,7 +28,7 @@
     "title": "Bump the npm-patching group in /server with 4 updates",
     "repo": "flame",
     "meta": "#8",
-    "time": "2d",
+    "time": "3d",
     "url": "https://github.com/eustasy-archive/flame/pull/8"
   },
   {
