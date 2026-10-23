@@ -1,10 +1,18 @@
 [
   {
     "type": "issue",
+    "title": "Bump the npm-patching group in /server with 2 updates",
+    "repo": "flame",
+    "meta": "#10",
+    "time": "5h",
+    "url": "https://github.com/eustasy-archive/flame/pull/10"
+  },
+  {
+    "type": "issue",
     "title": "Bump markdown-it from 14.3.2 to 14.3.3",
     "repo": "apple-silicon",
     "meta": "#47",
-    "time": "12h",
+    "time": "17h",
     "url": "https://github.com/eustasy/apple-silicon/pull/47"
   },
   {
@@ -12,7 +20,7 @@
     "title": "Bump the npm-patching group with 17 updates",
     "repo": "apple-silicon",
     "meta": "#46",
-    "time": "12h",
+    "time": "17h",
     "url": "https://github.com/eustasy/apple-silicon/pull/46"
   },
   {
@@ -20,7 +28,7 @@
     "title": "Bump sharp and wrangler",
     "repo": "puff-serverless",
     "meta": "#139",
-    "time": "1d",
+    "time": "2d",
     "url": "https://github.com/eustasy/puff-serverless/pull/139"
   },
   {
@@ -30,13 +38,5 @@
     "meta": "#138",
     "time": "2d",
     "url": "https://github.com/eustasy/puff-serverless/pull/138"
-  },
-  {
-    "type": "issue",
-    "title": "Bump the npm-patching group in /server with 2 updates",
-    "repo": "flame",
-    "meta": "#9",
-    "time": "2d",
-    "url": "https://github.com/eustasy-archive/flame/pull/9"
   }
 ]
