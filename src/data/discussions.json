@@ -4,7 +4,7 @@
     "title": "Bump the npm-patching group in /server with 2 updates",
     "repo": "flame",
     "meta": "#10",
-    "time": "5h",
+    "time": "10h",
     "url": "https://github.com/eustasy-archive/flame/pull/10"
   },
   {
@@ -12,7 +12,7 @@
     "title": "Bump markdown-it from 14.3.2 to 14.3.3",
     "repo": "apple-silicon",
     "meta": "#47",
-    "time": "17h",
+    "time": "22h",
     "url": "https://github.com/eustasy/apple-silicon/pull/47"
   },
   {
@@ -20,7 +20,7 @@
     "title": "Bump the npm-patching group with 17 updates",
     "repo": "apple-silicon",
     "meta": "#46",
-    "time": "17h",
+    "time": "22h",
     "url": "https://github.com/eustasy/apple-silicon/pull/46"
   },
   {
