@@ -12,7 +12,7 @@
     "title": "Bump markdown-it from 14.3.2 to 14.3.3",
     "repo": "apple-silicon",
     "meta": "#47",
-    "time": "2d",
+    "time": "3d",
     "url": "https://github.com/eustasy/apple-silicon/pull/47"
   },
   {
@@ -20,7 +20,7 @@
     "title": "Bump the npm-patching group with 17 updates",
     "repo": "apple-silicon",
     "meta": "#46",
-    "time": "2d",
+    "time": "3d",
     "url": "https://github.com/eustasy/apple-silicon/pull/46"
   },
   {
