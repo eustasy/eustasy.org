@@ -3,8 +3,16 @@
     "type": "issue",
     "title": "Bump the npm-patching group in /server with 2 updates",
     "repo": "flame",
+    "meta": "#11",
+    "time": "6h",
+    "url": "https://github.com/eustasy-archive/flame/pull/11"
+  },
+  {
+    "type": "issue",
+    "title": "Bump the npm-patching group in /server with 2 updates",
+    "repo": "flame",
     "meta": "#10",
-    "time": "2d",
+    "time": "3d",
     "url": "https://github.com/eustasy-archive/flame/pull/10"
   },
   {
@@ -28,15 +36,7 @@
     "title": "Bump sharp and wrangler",
     "repo": "puff-serverless",
     "meta": "#139",
-    "time": "4d",
-    "url": "https://github.com/eustasy/puff-serverless/pull/139"
-  },
-  {
-    "type": "issue",
-    "title": "Bump vite from 8.3.1 to 8.3.4",
-    "repo": "puff-serverless",
-    "meta": "#138",
     "time": "5d",
-    "url": "https://github.com/eustasy/puff-serverless/pull/138"
+    "url": "https://github.com/eustasy/puff-serverless/pull/139"
   }
 ]
