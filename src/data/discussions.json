@@ -4,7 +4,7 @@
     "title": "Bump the gha-patching group across 15 directories with 2 updates",
     "repo": ".normal",
     "meta": "#93",
-    "time": "21h",
+    "time": "1d",
     "url": "https://github.com/eustasy/.normal/pull/93"
   },
   {
@@ -28,7 +28,7 @@
     "title": "Bump markdown-it from 14.3.2 to 14.3.3",
     "repo": "apple-silicon",
     "meta": "#47",
-    "time": "4d",
+    "time": "5d",
     "url": "https://github.com/eustasy/apple-silicon/pull/47"
   },
   {
@@ -36,7 +36,7 @@
     "title": "Bump the npm-patching group with 17 updates",
     "repo": "apple-silicon",
     "meta": "#46",
-    "time": "4d",
+    "time": "5d",
     "url": "https://github.com/eustasy/apple-silicon/pull/46"
   }
 ]
