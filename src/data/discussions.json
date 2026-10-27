@@ -4,7 +4,7 @@
     "title": "Bump the gha-patching group across 15 directories with 2 updates",
     "repo": ".normal",
     "meta": "#93",
-    "time": "14h",
+    "time": "21h",
     "url": "https://github.com/eustasy/.normal/pull/93"
   },
   {
@@ -12,7 +12,7 @@
     "title": "Bump the npm-patching group in /server with 2 updates",
     "repo": "flame",
     "meta": "#11",
-    "time": "23h",
+    "time": "1d",
     "url": "https://github.com/eustasy-archive/flame/pull/11"
   },
   {
@@ -20,7 +20,7 @@
     "title": "Bump the npm-patching group in /server with 2 updates",
     "repo": "flame",
     "meta": "#10",
-    "time": "3d",
+    "time": "4d",
     "url": "https://github.com/eustasy-archive/flame/pull/10"
   },
   {
