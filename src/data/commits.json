@@ -1,42 +1,42 @@
 [
   {
     "type": "release",
-    "title": "Phoenix v5.0",
-    "repo": "Phoenix",
-    "meta": "eustasy",
-    "time": "7w",
-    "url": "https://github.com/eustasy/Phoenix/releases/tag/v5.0"
-  },
-  {
-    "type": "release",
-    "title": "Bubbly 3.0",
-    "repo": "Bubbly",
-    "meta": "eustasy",
-    "time": "7w",
-    "url": "https://github.com/eustasy/Bubbly/releases/tag/3.0"
-  },
-  {
-    "type": "release",
-    "title": "Colors.css 2.1.1",
-    "repo": "Colors.css",
-    "meta": "eustasy",
-    "time": "5mo",
-    "url": "https://github.com/eustasy/Colors.css/releases/tag/2.1.1"
-  },
-  {
-    "type": "release",
-    "title": "authenticatron v4.1.1",
-    "repo": "authenticatron",
-    "meta": "eustasy",
-    "time": "5mo",
-    "url": "https://github.com/eustasy/authenticatron/releases/tag/v4.1.1"
-  },
-  {
-    "type": "release",
-    "title": "browning 1.31",
+    "title": "browning 1.32",
     "repo": "browning",
     "meta": "eustasy",
-    "time": "5mo",
-    "url": "https://github.com/eustasy/browning/releases/tag/1.31"
+    "time": "5h",
+    "url": "https://github.com/eustasy/browning/releases/tag/1.32"
+  },
+  {
+    "type": "release",
+    "title": "Bubbly 3.1",
+    "repo": "Bubbly",
+    "meta": "eustasy",
+    "time": "5h",
+    "url": "https://github.com/eustasy/Bubbly/releases/tag/3.1"
+  },
+  {
+    "type": "release",
+    "title": "Phoenix v5.1",
+    "repo": "Phoenix",
+    "meta": "eustasy",
+    "time": "5h",
+    "url": "https://github.com/eustasy/Phoenix/releases/tag/v5.1"
+  },
+  {
+    "type": "release",
+    "title": "authenticatron 4.2",
+    "repo": "authenticatron",
+    "meta": "eustasy",
+    "time": "5h",
+    "url": "https://github.com/eustasy/authenticatron/releases/tag/4.2"
+  },
+  {
+    "type": "release",
+    "title": "jQuery.leanModal2 2.6.5",
+    "repo": "jQuery.leanModal2",
+    "meta": "eustasy",
+    "time": "6h",
+    "url": "https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.5"
   }
 ]
