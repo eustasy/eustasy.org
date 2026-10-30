@@ -4,7 +4,7 @@
     "title": "Upgrade HTMX to 4.0.0 stable",
     "repo": "puff-serverless",
     "meta": "#147",
-    "time": "46m",
+    "time": "6h",
     "url": "https://github.com/eustasy/puff-serverless/pull/147"
   },
   {
@@ -12,7 +12,7 @@
     "title": "Bump the npm-patching group with 11 updates",
     "repo": "apple-silicon",
     "meta": "#48",
-    "time": "4h",
+    "time": "10h",
     "url": "https://github.com/eustasy/apple-silicon/pull/48"
   },
   {
@@ -20,7 +20,7 @@
     "title": "Merge updates into projects instead of overwriting them",
     "repo": ".normal",
     "meta": "#94",
-    "time": "15h",
+    "time": "22h",
     "url": "https://github.com/eustasy/.normal/pull/94"
   },
   {
@@ -28,7 +28,7 @@
     "title": "Bump the npm-patching group across 1 directory with 41 updates",
     "repo": "puff-serverless",
     "meta": "#146",
-    "time": "15h",
+    "time": "22h",
     "url": "https://github.com/eustasy/puff-serverless/pull/146"
   },
   {
@@ -36,7 +36,7 @@
     "title": "Bump the npm-patching group with 43 updates",
     "repo": "puff-serverless",
     "meta": "4 replies",
-    "time": "16h",
+    "time": "22h",
     "url": "https://github.com/eustasy/puff-serverless/pull/141"
   }
 ]
