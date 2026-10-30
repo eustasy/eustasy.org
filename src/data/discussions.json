@@ -1,10 +1,18 @@
 [
   {
     "type": "issue",
+    "title": "Bump the npm-patching group in /server with 3 updates",
+    "repo": "flame",
+    "meta": "#12",
+    "time": "5h",
+    "url": "https://github.com/eustasy-archive/flame/pull/12"
+  },
+  {
+    "type": "issue",
     "title": "Upgrade HTMX to 4.0.0 stable",
     "repo": "puff-serverless",
     "meta": "#147",
-    "time": "6h",
+    "time": "14h",
     "url": "https://github.com/eustasy/puff-serverless/pull/147"
   },
   {
@@ -12,7 +20,7 @@
     "title": "Bump the npm-patching group with 11 updates",
     "repo": "apple-silicon",
     "meta": "#48",
-    "time": "10h",
+    "time": "17h",
     "url": "https://github.com/eustasy/apple-silicon/pull/48"
   },
   {
@@ -20,7 +28,7 @@
     "title": "Merge updates into projects instead of overwriting them",
     "repo": ".normal",
     "meta": "#94",
-    "time": "22h",
+    "time": "1d",
     "url": "https://github.com/eustasy/.normal/pull/94"
   },
   {
@@ -28,15 +36,7 @@
     "title": "Bump the npm-patching group across 1 directory with 41 updates",
     "repo": "puff-serverless",
     "meta": "#146",
-    "time": "22h",
+    "time": "1d",
     "url": "https://github.com/eustasy/puff-serverless/pull/146"
-  },
-  {
-    "type": "discussion",
-    "title": "Bump the npm-patching group with 43 updates",
-    "repo": "puff-serverless",
-    "meta": "4 replies",
-    "time": "22h",
-    "url": "https://github.com/eustasy/puff-serverless/pull/141"
   }
 ]
