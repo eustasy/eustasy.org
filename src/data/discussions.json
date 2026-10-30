@@ -1,42 +1,42 @@
 [
   {
-    "type": "issue",
-    "title": "Bump the npm-patching group in /server with 3 updates",
-    "repo": "flame",
-    "meta": "#12",
-    "time": "11h",
-    "url": "https://github.com/eustasy-archive/flame/pull/12"
+    "type": "discussion",
+    "title": "Fix #88: Client chart popup is hard to trigger on short bars, and always says peers.",
+    "repo": "Phoenix",
+    "meta": "2 replies",
+    "time": "7m",
+    "url": "https://github.com/eustasy/Phoenix/pull/89"
   },
   {
     "type": "issue",
-    "title": "Upgrade HTMX to 4.0.0 stable",
-    "repo": "puff-serverless",
-    "meta": "#147",
-    "time": "20h",
-    "url": "https://github.com/eustasy/puff-serverless/pull/147"
+    "title": "Client chart popup is hard to trigger on short bars, and always says peers",
+    "repo": "Phoenix",
+    "meta": "#88",
+    "time": "9m",
+    "url": "https://github.com/eustasy/Phoenix/issues/88"
+  },
+  {
+    "type": "discussion",
+    "title": "Fix #86: Clients table shows no empty state when the filter matches nothing.",
+    "repo": "Phoenix",
+    "meta": "1 reply",
+    "time": "45m",
+    "url": "https://github.com/eustasy/Phoenix/pull/87"
   },
   {
     "type": "issue",
-    "title": "Bump the npm-patching group with 11 updates",
-    "repo": "apple-silicon",
-    "meta": "#48",
-    "time": "23h",
-    "url": "https://github.com/eustasy/apple-silicon/pull/48"
+    "title": "Clients table shows no empty state when the filter matches nothing",
+    "repo": "Phoenix",
+    "meta": "#86",
+    "time": "47m",
+    "url": "https://github.com/eustasy/Phoenix/issues/86"
   },
   {
-    "type": "issue",
-    "title": "Merge updates into projects instead of overwriting them",
-    "repo": ".normal",
-    "meta": "#94",
-    "time": "1d",
-    "url": "https://github.com/eustasy/.normal/pull/94"
-  },
-  {
-    "type": "issue",
-    "title": "Bump the npm-patching group across 1 directory with 41 updates",
-    "repo": "puff-serverless",
-    "meta": "#146",
-    "time": "1d",
-    "url": "https://github.com/eustasy/puff-serverless/pull/146"
+    "type": "discussion",
+    "title": "Fix #82: Client chart ignores sort order for numeric family and version names.",
+    "repo": "Phoenix",
+    "meta": "2 replies",
+    "time": "1h",
+    "url": "https://github.com/eustasy/Phoenix/pull/85"
   }
 ]
