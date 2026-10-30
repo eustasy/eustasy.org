@@ -1,10 +1,26 @@
 [
   {
     "type": "issue",
+    "title": "Upgrade HTMX to 4.0.0 stable",
+    "repo": "puff-serverless",
+    "meta": "#147",
+    "time": "46m",
+    "url": "https://github.com/eustasy/puff-serverless/pull/147"
+  },
+  {
+    "type": "issue",
+    "title": "Bump the npm-patching group with 11 updates",
+    "repo": "apple-silicon",
+    "meta": "#48",
+    "time": "4h",
+    "url": "https://github.com/eustasy/apple-silicon/pull/48"
+  },
+  {
+    "type": "issue",
     "title": "Merge updates into projects instead of overwriting them",
     "repo": ".normal",
     "meta": "#94",
-    "time": "11h",
+    "time": "15h",
     "url": "https://github.com/eustasy/.normal/pull/94"
   },
   {
@@ -12,7 +28,7 @@
     "title": "Bump the npm-patching group across 1 directory with 41 updates",
     "repo": "puff-serverless",
     "meta": "#146",
-    "time": "11h",
+    "time": "15h",
     "url": "https://github.com/eustasy/puff-serverless/pull/146"
   },
   {
@@ -20,23 +36,7 @@
     "title": "Bump the npm-patching group with 43 updates",
     "repo": "puff-serverless",
     "meta": "4 replies",
-    "time": "11h",
+    "time": "16h",
     "url": "https://github.com/eustasy/puff-serverless/pull/141"
-  },
-  {
-    "type": "issue",
-    "title": "Bump @babel/helper-string-parser from 7.29.7 to 7.29.11",
-    "repo": "puff-serverless",
-    "meta": "#145",
-    "time": "11h",
-    "url": "https://github.com/eustasy/puff-serverless/pull/145"
-  },
-  {
-    "type": "issue",
-    "title": "Bump asn1js from 3.0.10 to 3.1.0",
-    "repo": "puff-serverless",
-    "meta": "#144",
-    "time": "11h",
-    "url": "https://github.com/eustasy/puff-serverless/pull/144"
   }
 ]
