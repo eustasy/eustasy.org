@@ -1,42 +1,42 @@
 [
   {
+    "type": "issue",
+    "title": "Read the recovery password from input, so the shell and PHP can't alter it.",
+    "repo": "Phoenix",
+    "meta": "#94",
+    "time": "4h",
+    "url": "https://github.com/eustasy/Phoenix/pull/94"
+  },
+  {
     "type": "discussion",
-    "title": "Fix #88: Client chart popup is hard to trigger on short bars, and always says peers.",
+    "title": "Allow PHPUnit 13, keeping 11 and 12 for older PHP.",
     "repo": "Phoenix",
     "meta": "2 replies",
-    "time": "7m",
-    "url": "https://github.com/eustasy/Phoenix/pull/89"
+    "time": "5h",
+    "url": "https://github.com/eustasy/Phoenix/pull/93"
   },
   {
     "type": "issue",
-    "title": "Client chart popup is hard to trigger on short bars, and always says peers",
+    "title": "Move the dev image to PHP 8.5, and have Dependabot watch Docker.",
     "repo": "Phoenix",
-    "meta": "#88",
-    "time": "9m",
-    "url": "https://github.com/eustasy/Phoenix/issues/88"
+    "meta": "#92",
+    "time": "5h",
+    "url": "https://github.com/eustasy/Phoenix/pull/92"
   },
   {
     "type": "discussion",
-    "title": "Fix #86: Clients table shows no empty state when the filter matches nothing.",
+    "title": "Bump Lucide to 1.65.0 and Chart.js to 4.6.1.",
     "repo": "Phoenix",
     "meta": "1 reply",
-    "time": "45m",
-    "url": "https://github.com/eustasy/Phoenix/pull/87"
-  },
-  {
-    "type": "issue",
-    "title": "Clients table shows no empty state when the filter matches nothing",
-    "repo": "Phoenix",
-    "meta": "#86",
-    "time": "47m",
-    "url": "https://github.com/eustasy/Phoenix/issues/86"
+    "time": "5h",
+    "url": "https://github.com/eustasy/Phoenix/pull/91"
   },
   {
     "type": "discussion",
-    "title": "Fix #82: Client chart ignores sort order for numeric family and version names.",
+    "title": "Document every external dependency in DEPENDENCIES.md.",
     "repo": "Phoenix",
-    "meta": "2 replies",
-    "time": "1h",
-    "url": "https://github.com/eustasy/Phoenix/pull/85"
+    "meta": "1 reply",
+    "time": "5h",
+    "url": "https://github.com/eustasy/Phoenix/pull/90"
   }
 ]
