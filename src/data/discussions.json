@@ -4,7 +4,7 @@
     "title": "Read the recovery password from input, so the shell and PHP can't alter it.",
     "repo": "Phoenix",
     "meta": "#94",
-    "time": "11h",
+    "time": "17h",
     "url": "https://github.com/eustasy/Phoenix/pull/94"
   },
   {
@@ -12,7 +12,7 @@
     "title": "Allow PHPUnit 13, keeping 11 and 12 for older PHP.",
     "repo": "Phoenix",
     "meta": "2 replies",
-    "time": "12h",
+    "time": "17h",
     "url": "https://github.com/eustasy/Phoenix/pull/93"
   },
   {
@@ -20,7 +20,7 @@
     "title": "Move the dev image to PHP 8.5, and have Dependabot watch Docker.",
     "repo": "Phoenix",
     "meta": "#92",
-    "time": "12h",
+    "time": "18h",
     "url": "https://github.com/eustasy/Phoenix/pull/92"
   },
   {
@@ -28,7 +28,7 @@
     "title": "Bump Lucide to 1.65.0 and Chart.js to 4.6.1.",
     "repo": "Phoenix",
     "meta": "1 reply",
-    "time": "12h",
+    "time": "18h",
     "url": "https://github.com/eustasy/Phoenix/pull/91"
   },
   {
@@ -36,7 +36,7 @@
     "title": "Document every external dependency in DEPENDENCIES.md.",
     "repo": "Phoenix",
     "meta": "1 reply",
-    "time": "12h",
+    "time": "18h",
     "url": "https://github.com/eustasy/Phoenix/pull/90"
   }
 ]
