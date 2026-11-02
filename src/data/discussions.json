@@ -1,10 +1,18 @@
 [
   {
+    "type": "issue",
+    "title": "Bump the npm-patching group in /server with 2 updates",
+    "repo": "flame",
+    "meta": "#13",
+    "time": "1h",
+    "url": "https://github.com/eustasy-archive/flame/pull/13"
+  },
+  {
     "type": "discussion",
     "title": "Bump the bun-patching group with 123 updates",
     "repo": "eustasy.org",
     "meta": "1 reply",
-    "time": "1h",
+    "time": "9h",
     "url": "https://github.com/eustasy/eustasy.org/pull/20"
   },
   {
@@ -12,7 +20,7 @@
     "title": "Bump the npm-patching group with 3 updates",
     "repo": "puff-serverless",
     "meta": "#148",
-    "time": "22h",
+    "time": "1d",
     "url": "https://github.com/eustasy/puff-serverless/pull/148"
   },
   {
@@ -30,13 +38,5 @@
     "meta": "2 replies",
     "time": "2d",
     "url": "https://github.com/eustasy/Phoenix/pull/93"
-  },
-  {
-    "type": "issue",
-    "title": "Move the dev image to PHP 8.5, and have Dependabot watch Docker.",
-    "repo": "Phoenix",
-    "meta": "#92",
-    "time": "2d",
-    "url": "https://github.com/eustasy/Phoenix/pull/92"
   }
 ]
