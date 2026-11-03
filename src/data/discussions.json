@@ -4,7 +4,7 @@
     "title": "Bump the npm-patching group in /server with 2 updates",
     "repo": "flame",
     "meta": "#13",
-    "time": "12h",
+    "time": "18h",
     "url": "https://github.com/eustasy-archive/flame/pull/13"
   },
   {
@@ -12,7 +12,7 @@
     "title": "Bump the bun-patching group with 123 updates",
     "repo": "eustasy.org",
     "meta": "1 reply",
-    "time": "20h",
+    "time": "1d",
     "url": "https://github.com/eustasy/eustasy.org/pull/20"
   },
   {
@@ -28,15 +28,15 @@
     "title": "Read the recovery password from input, so the shell and PHP can't alter it.",
     "repo": "Phoenix",
     "meta": "#94",
-    "time": "2d",
+    "time": "3d",
     "url": "https://github.com/eustasy/Phoenix/pull/94"
   },
   {
     "type": "discussion",
-    "title": "Allow PHPUnit 13, keeping 11 and 12 for older PHP.",
+    "title": "Fix #88: Client chart popup is hard to trigger on short bars, and always says peers.",
     "repo": "Phoenix",
     "meta": "2 replies",
-    "time": "2d",
-    "url": "https://github.com/eustasy/Phoenix/pull/93"
+    "time": "3d",
+    "url": "https://github.com/eustasy/Phoenix/pull/89"
   }
 ]
