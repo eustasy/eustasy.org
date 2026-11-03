@@ -25,18 +25,18 @@
   },
   {
     "type": "issue",
-    "title": "Read the recovery password from input, so the shell and PHP can't alter it.",
-    "repo": "Phoenix",
-    "meta": "#94",
-    "time": "3d",
-    "url": "https://github.com/eustasy/Phoenix/pull/94"
-  },
-  {
-    "type": "issue",
     "title": "Bump the npm-patching group in /server with 3 updates",
     "repo": "flame",
     "meta": "#12",
     "time": "4d",
     "url": "https://github.com/eustasy-archive/flame/pull/12"
+  },
+  {
+    "type": "issue",
+    "title": "Bump the npm-patching group in /server with 2 updates",
+    "repo": "flame",
+    "meta": "#11",
+    "time": "1w",
+    "url": "https://github.com/eustasy-archive/flame/pull/11"
   }
 ]
