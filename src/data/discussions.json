@@ -4,7 +4,7 @@
     "title": "Bump the npm-patching group in /server with 2 updates",
     "repo": "flame",
     "meta": "#13",
-    "time": "18h",
+    "time": "1d",
     "url": "https://github.com/eustasy-archive/flame/pull/13"
   },
   {
@@ -20,7 +20,7 @@
     "title": "Bump the npm-patching group with 3 updates",
     "repo": "puff-serverless",
     "meta": "#148",
-    "time": "1d",
+    "time": "2d",
     "url": "https://github.com/eustasy/puff-serverless/pull/148"
   },
   {
@@ -32,11 +32,11 @@
     "url": "https://github.com/eustasy/Phoenix/pull/94"
   },
   {
-    "type": "discussion",
-    "title": "Fix #88: Client chart popup is hard to trigger on short bars, and always says peers.",
-    "repo": "Phoenix",
-    "meta": "2 replies",
-    "time": "3d",
-    "url": "https://github.com/eustasy/Phoenix/pull/89"
+    "type": "issue",
+    "title": "Bump the npm-patching group in /server with 3 updates",
+    "repo": "flame",
+    "meta": "#12",
+    "time": "4d",
+    "url": "https://github.com/eustasy-archive/flame/pull/12"
   }
 ]
