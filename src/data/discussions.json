@@ -1,10 +1,26 @@
 [
   {
     "type": "issue",
+    "title": "Bump encodeurl from 2.0.0 to 2.0.1",
+    "repo": "apple-silicon",
+    "meta": "#50",
+    "time": "1h",
+    "url": "https://github.com/eustasy/apple-silicon/pull/50"
+  },
+  {
+    "type": "issue",
+    "title": "Bump the npm-patching group with 11 updates",
+    "repo": "apple-silicon",
+    "meta": "#49",
+    "time": "1h",
+    "url": "https://github.com/eustasy/apple-silicon/pull/49"
+  },
+  {
+    "type": "issue",
     "title": "Bump the npm-patching group in /server with 2 updates",
     "repo": "flame",
     "meta": "#14",
-    "time": "4h",
+    "time": "13h",
     "url": "https://github.com/eustasy-archive/flame/pull/14"
   },
   {
@@ -22,21 +38,5 @@
     "meta": "1 reply",
     "time": "3d",
     "url": "https://github.com/eustasy/eustasy.org/pull/20"
-  },
-  {
-    "type": "issue",
-    "title": "Bump the npm-patching group with 3 updates",
-    "repo": "puff-serverless",
-    "meta": "#148",
-    "time": "4d",
-    "url": "https://github.com/eustasy/puff-serverless/pull/148"
-  },
-  {
-    "type": "issue",
-    "title": "Bump the npm-patching group in /server with 3 updates",
-    "repo": "flame",
-    "meta": "#12",
-    "time": "6d",
-    "url": "https://github.com/eustasy-archive/flame/pull/12"
   }
 ]
