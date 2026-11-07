@@ -4,7 +4,7 @@
     "title": "Bump the npm-patching group in /server with 2 updates",
     "repo": "flame",
     "meta": "#15",
-    "time": "11h",
+    "time": "16h",
     "url": "https://github.com/eustasy-archive/flame/pull/15"
   },
   {
@@ -12,7 +12,7 @@
     "title": "Bump encodeurl from 2.0.0 to 2.0.1",
     "repo": "apple-silicon",
     "meta": "#50",
-    "time": "23h",
+    "time": "1d",
     "url": "https://github.com/eustasy/apple-silicon/pull/50"
   },
   {
@@ -20,7 +20,7 @@
     "title": "Bump the npm-patching group with 11 updates",
     "repo": "apple-silicon",
     "meta": "#49",
-    "time": "23h",
+    "time": "1d",
     "url": "https://github.com/eustasy/apple-silicon/pull/49"
   },
   {
