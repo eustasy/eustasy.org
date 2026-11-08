@@ -12,7 +12,7 @@
     "title": "Bump encodeurl from 2.0.0 to 2.0.1",
     "repo": "apple-silicon",
     "meta": "#50",
-    "time": "2d",
+    "time": "3d",
     "url": "https://github.com/eustasy/apple-silicon/pull/50"
   },
   {
@@ -20,7 +20,7 @@
     "title": "Bump the npm-patching group with 11 updates",
     "repo": "apple-silicon",
     "meta": "#49",
-    "time": "2d",
+    "time": "3d",
     "url": "https://github.com/eustasy/apple-silicon/pull/49"
   },
   {
