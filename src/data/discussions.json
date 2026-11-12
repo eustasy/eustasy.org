@@ -1,42 +1,42 @@
 [
   {
+    "type": "discussion",
+    "title": "Install .Normal 5.1, stop echoing the DB error, bump Lucide, and refresh docs",
+    "repo": "Phoenix",
+    "meta": "1 reply",
+    "time": "3h",
+    "url": "https://github.com/eustasy/Phoenix/pull/95"
+  },
+  {
     "type": "issue",
-    "title": "Bump the npm-patching group in /server with 2 updates",
-    "repo": "flame",
+    "title": "Read release names through GitRelease.name",
+    "repo": ".releases",
+    "meta": "#18",
+    "time": "7h",
+    "url": "https://github.com/eustasy/.releases/pull/18"
+  },
+  {
+    "type": "issue",
+    "title": "Read merge settings over GraphQL",
+    "repo": ".releases",
     "meta": "#17",
-    "time": "3d",
-    "url": "https://github.com/eustasy-archive/flame/pull/17"
+    "time": "7h",
+    "url": "https://github.com/eustasy/.releases/pull/17"
   },
   {
     "type": "issue",
-    "title": "Bump jsdom from 30.1.3 to 31.0.0 in /server",
-    "repo": "flame",
+    "title": "Pin generator dependencies, narrow workflow tokens, and tidy",
+    "repo": ".releases",
     "meta": "#16",
-    "time": "3d",
-    "url": "https://github.com/eustasy-archive/flame/pull/16"
+    "time": "7h",
+    "url": "https://github.com/eustasy/.releases/pull/16"
   },
   {
     "type": "issue",
-    "title": "Bump the npm-patching group in /server with 2 updates",
-    "repo": "flame",
-    "meta": "#15",
-    "time": "6d",
-    "url": "https://github.com/eustasy-archive/flame/pull/15"
-  },
-  {
-    "type": "issue",
-    "title": "Bump encodeurl from 2.0.0 to 2.0.1",
-    "repo": "apple-silicon",
-    "meta": "#50",
-    "time": "6d",
-    "url": "https://github.com/eustasy/apple-silicon/pull/50"
-  },
-  {
-    "type": "issue",
-    "title": "Bump the npm-patching group with 11 updates",
-    "repo": "apple-silicon",
-    "meta": "#49",
-    "time": "6d",
-    "url": "https://github.com/eustasy/apple-silicon/pull/49"
+    "title": "Current contributing guide and page text fixes",
+    "repo": "Colors.css",
+    "meta": "#43",
+    "time": "7h",
+    "url": "https://github.com/eustasy/Colors.css/pull/43"
   }
 ]
