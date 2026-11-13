@@ -23,10 +23,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - uses: oven-sh/setup-bun@v2
+        with:
+          persist-credentials: false
+      - uses: oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6 # v2.2.0
         with:
           bun-version: latest
       # Fails if package.json and bun.lock disagree — the same check Bun
-      # applies automatically during the Cloudflare Pages build, surfaced on
+      # applies automatically during the Cloudflare build, surfaced on
       # the PR instead of at deploy time.
       - run: bun install --frozen-lockfile --ignore-scripts
