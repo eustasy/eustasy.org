@@ -200,7 +200,7 @@ import repos from '../data/repos.json';
               ${r.langs.map(l => `<span class="tag lang-${l}">${LANG_LABEL[l]}</span>`).join("")}
               <span class="tag status-${r.status}">${STATUS_LABEL[r.status]}</span>
             </div>
-            <p class="repo-desc">${highlight(r.desc, q)}</p>
+            <p class="repo-desc">${highlight(escapeHTML(r.desc), q)}</p>
           </div>
           <div class="repo-side">
             <div class="repo-meta">
