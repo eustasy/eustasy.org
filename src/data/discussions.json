@@ -4,7 +4,7 @@
     "title": "Reject malformed signatures cleanly, .Normal 5.1, Python 3.15, and README fixes",
     "repo": "Locksmith",
     "meta": "#12",
-    "time": "3h",
+    "time": "11h",
     "url": "https://github.com/eustasy/Locksmith/pull/12"
   },
   {
@@ -12,7 +12,7 @@
     "title": "Security headers on function-rendered pages, .Normal 5.1, and docs cleanup",
     "repo": "puff-serverless",
     "meta": "#149",
-    "time": "3h",
+    "time": "11h",
     "url": "https://github.com/eustasy/puff-serverless/pull/149"
   },
   {
@@ -20,7 +20,7 @@
     "title": "Bump @11ty/chokidar-with-glob-support from 1.1.0 to 1.1.1",
     "repo": "apple-silicon",
     "meta": "#52",
-    "time": "3h",
+    "time": "11h",
     "url": "https://github.com/eustasy/apple-silicon/pull/52"
   },
   {
@@ -28,7 +28,7 @@
     "title": "Bump the npm-patching group with 10 updates",
     "repo": "apple-silicon",
     "meta": "#51",
-    "time": "3h",
+    "time": "11h",
     "url": "https://github.com/eustasy/apple-silicon/pull/51"
   },
   {
@@ -36,7 +36,7 @@
     "title": "Install .Normal 5.1, stop echoing the DB error, bump Lucide, and refresh docs",
     "repo": "Phoenix",
     "meta": "1 reply",
-    "time": "8h",
+    "time": "15h",
     "url": "https://github.com/eustasy/Phoenix/pull/95"
   }
 ]
