@@ -28,7 +28,7 @@
     "title": "Escape repo descriptions and pin setup-bun",
     "repo": "eustasy.org",
     "meta": "1 reply",
-    "time": "1d",
+    "time": "2d",
     "url": "https://github.com/eustasy/eustasy.org/pull/21"
   },
   {
@@ -36,7 +36,7 @@
     "title": "Fix the canonical site URL and name the formatting job",
     "repo": "apple-silicon",
     "meta": "#53",
-    "time": "1d",
+    "time": "2d",
     "url": "https://github.com/eustasy/apple-silicon/pull/53"
   }
 ]
