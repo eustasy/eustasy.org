@@ -1,10 +1,26 @@
 [
   {
     "type": "issue",
+    "title": "Bump the gha-patching group across 15 directories with 2 updates",
+    "repo": ".normal",
+    "meta": "#96",
+    "time": "1h",
+    "url": "https://github.com/eustasy/.normal/pull/96"
+  },
+  {
+    "type": "issue",
+    "title": "Bump the npm-patching group in /server with 3 updates",
+    "repo": "flame",
+    "meta": "#19",
+    "time": "10h",
+    "url": "https://github.com/eustasy-archive/flame/pull/19"
+  },
+  {
+    "type": "issue",
     "title": "Correct app metadata and document the unlock trust model",
     "repo": "elementary-bluetooth-proximity-locker",
     "meta": "#1",
-    "time": "2d",
+    "time": "3d",
     "url": "https://github.com/eustasy/elementary-bluetooth-proximity-locker/pull/1"
   },
   {
@@ -12,7 +28,7 @@
     "title": "Add Ubuntu 26.10 Stonking Stingray",
     "repo": "howtoubuntu.org",
     "meta": "#10",
-    "time": "2d",
+    "time": "3d",
     "url": "https://github.com/eustasy/howtoubuntu.org/pull/10"
   },
   {
@@ -20,23 +36,7 @@
     "title": "Replace Upptime sample text on the status page",
     "repo": ".uptime",
     "meta": "#7",
-    "time": "2d",
+    "time": "3d",
     "url": "https://github.com/eustasy/.uptime/pull/7"
-  },
-  {
-    "type": "discussion",
-    "title": "Escape repo descriptions and pin setup-bun",
-    "repo": "eustasy.org",
-    "meta": "1 reply",
-    "time": "2d",
-    "url": "https://github.com/eustasy/eustasy.org/pull/21"
-  },
-  {
-    "type": "issue",
-    "title": "Fix the canonical site URL and name the formatting job",
-    "repo": "apple-silicon",
-    "meta": "#53",
-    "time": "2d",
-    "url": "https://github.com/eustasy/apple-silicon/pull/53"
   }
 ]
