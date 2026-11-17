@@ -1,10 +1,18 @@
 [
   {
     "type": "issue",
+    "title": "Bump prettier from 3.9.10 to 3.10.1 in the npm-patching group",
+    "repo": ".ui",
+    "meta": "#15",
+    "time": "7h",
+    "url": "https://github.com/eustasy/.ui/pull/15"
+  },
+  {
+    "type": "issue",
     "title": "Bump the gha-patching group across 15 directories with 2 updates",
     "repo": ".normal",
     "meta": "#96",
-    "time": "1h",
+    "time": "9h",
     "url": "https://github.com/eustasy/.normal/pull/96"
   },
   {
@@ -12,7 +20,7 @@
     "title": "Bump the npm-patching group in /server with 3 updates",
     "repo": "flame",
     "meta": "#19",
-    "time": "10h",
+    "time": "18h",
     "url": "https://github.com/eustasy-archive/flame/pull/19"
   },
   {
@@ -30,13 +38,5 @@
     "meta": "#10",
     "time": "3d",
     "url": "https://github.com/eustasy/howtoubuntu.org/pull/10"
-  },
-  {
-    "type": "issue",
-    "title": "Replace Upptime sample text on the status page",
-    "repo": ".uptime",
-    "meta": "#7",
-    "time": "3d",
-    "url": "https://github.com/eustasy/.uptime/pull/7"
   }
 ]
