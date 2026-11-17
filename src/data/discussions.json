@@ -1,10 +1,18 @@
 [
   {
     "type": "issue",
+    "title": "Bump the gha-patching group across 15 directories with 2 updates",
+    "repo": ".normal",
+    "meta": "#97",
+    "time": "4h",
+    "url": "https://github.com/eustasy/.normal/pull/97"
+  },
+  {
+    "type": "issue",
     "title": "Bump the npm-patching group in /server with 2 updates",
     "repo": "flame",
     "meta": "#20",
-    "time": "5h",
+    "time": "14h",
     "url": "https://github.com/eustasy-archive/flame/pull/20"
   },
   {
@@ -12,7 +20,7 @@
     "title": "Bump prettier from 3.9.10 to 3.10.1 in the npm-patching group",
     "repo": ".ui",
     "meta": "#15",
-    "time": "18h",
+    "time": "1d",
     "url": "https://github.com/eustasy/.ui/pull/15"
   },
   {
@@ -20,7 +28,7 @@
     "title": "Bump the gha-patching group across 15 directories with 2 updates",
     "repo": ".normal",
     "meta": "#96",
-    "time": "20h",
+    "time": "1d",
     "url": "https://github.com/eustasy/.normal/pull/96"
   },
   {
@@ -30,13 +38,5 @@
     "meta": "#19",
     "time": "1d",
     "url": "https://github.com/eustasy-archive/flame/pull/19"
-  },
-  {
-    "type": "issue",
-    "title": "Correct app metadata and document the unlock trust model",
-    "repo": "elementary-bluetooth-proximity-locker",
-    "meta": "#1",
-    "time": "3d",
-    "url": "https://github.com/eustasy/elementary-bluetooth-proximity-locker/pull/1"
   }
 ]
