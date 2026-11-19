@@ -4,7 +4,7 @@
     "title": "Bump the gha-patching group across 15 directories with 2 updates",
     "repo": ".normal",
     "meta": "#97",
-    "time": "23h",
+    "time": "1d",
     "url": "https://github.com/eustasy/.normal/pull/97"
   },
   {
@@ -20,7 +20,7 @@
     "title": "Bump prettier from 3.9.10 to 3.10.1 in the npm-patching group",
     "repo": ".ui",
     "meta": "#15",
-    "time": "1d",
+    "time": "2d",
     "url": "https://github.com/eustasy/.ui/pull/15"
   },
   {
@@ -28,7 +28,7 @@
     "title": "Bump the gha-patching group across 15 directories with 2 updates",
     "repo": ".normal",
     "meta": "#96",
-    "time": "1d",
+    "time": "2d",
     "url": "https://github.com/eustasy/.normal/pull/96"
   },
   {
