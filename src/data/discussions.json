@@ -1,10 +1,34 @@
 [
   {
     "type": "issue",
+    "title": "Bump brace-expansion from 1.1.21 to 1.1.22",
+    "repo": "apple-silicon",
+    "meta": "#56",
+    "time": "1h",
+    "url": "https://github.com/eustasy/apple-silicon/pull/56"
+  },
+  {
+    "type": "issue",
+    "title": "Bump encodeurl from 2.0.1 to 2.0.3",
+    "repo": "apple-silicon",
+    "meta": "#55",
+    "time": "1h",
+    "url": "https://github.com/eustasy/apple-silicon/pull/55"
+  },
+  {
+    "type": "issue",
+    "title": "Bump the npm-patching group with 10 updates",
+    "repo": "apple-silicon",
+    "meta": "#54",
+    "time": "1h",
+    "url": "https://github.com/eustasy/apple-silicon/pull/54"
+  },
+  {
+    "type": "issue",
     "title": "Bump the gha-patching group across 15 directories with 2 updates",
     "repo": ".normal",
     "meta": "#97",
-    "time": "1d",
+    "time": "2d",
     "url": "https://github.com/eustasy/.normal/pull/97"
   },
   {
@@ -14,29 +38,5 @@
     "meta": "#20",
     "time": "2d",
     "url": "https://github.com/eustasy-archive/flame/pull/20"
-  },
-  {
-    "type": "issue",
-    "title": "Bump prettier from 3.9.10 to 3.10.1 in the npm-patching group",
-    "repo": ".ui",
-    "meta": "#15",
-    "time": "2d",
-    "url": "https://github.com/eustasy/.ui/pull/15"
-  },
-  {
-    "type": "issue",
-    "title": "Bump the gha-patching group across 15 directories with 2 updates",
-    "repo": ".normal",
-    "meta": "#96",
-    "time": "2d",
-    "url": "https://github.com/eustasy/.normal/pull/96"
-  },
-  {
-    "type": "issue",
-    "title": "Bump the npm-patching group in /server with 3 updates",
-    "repo": "flame",
-    "meta": "#19",
-    "time": "3d",
-    "url": "https://github.com/eustasy-archive/flame/pull/19"
   }
 ]
