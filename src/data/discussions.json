@@ -12,7 +12,7 @@
     "title": "Bump the npm-patching group in /server with 2 updates",
     "repo": "flame",
     "meta": "#20",
-    "time": "1d",
+    "time": "2d",
     "url": "https://github.com/eustasy-archive/flame/pull/20"
   },
   {
@@ -36,7 +36,7 @@
     "title": "Bump the npm-patching group in /server with 3 updates",
     "repo": "flame",
     "meta": "#19",
-    "time": "2d",
+    "time": "3d",
     "url": "https://github.com/eustasy-archive/flame/pull/19"
   }
 ]
