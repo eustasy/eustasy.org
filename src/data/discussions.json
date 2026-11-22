@@ -4,7 +4,7 @@
     "title": "Bump brace-expansion from 1.1.21 to 1.1.22",
     "repo": "apple-silicon",
     "meta": "#56",
-    "time": "2d",
+    "time": "3d",
     "url": "https://github.com/eustasy/apple-silicon/pull/56"
   },
   {
@@ -12,7 +12,7 @@
     "title": "Bump encodeurl from 2.0.1 to 2.0.3",
     "repo": "apple-silicon",
     "meta": "#55",
-    "time": "2d",
+    "time": "3d",
     "url": "https://github.com/eustasy/apple-silicon/pull/55"
   },
   {
@@ -20,7 +20,7 @@
     "title": "Bump the npm-patching group with 10 updates",
     "repo": "apple-silicon",
     "meta": "#54",
-    "time": "2d",
+    "time": "3d",
     "url": "https://github.com/eustasy/apple-silicon/pull/54"
   },
   {
