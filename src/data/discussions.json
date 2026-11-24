@@ -1,10 +1,18 @@
 [
   {
     "type": "issue",
+    "title": "Bump the bun-patching group with 66 updates",
+    "repo": "eustasy.org",
+    "meta": "#22",
+    "time": "3h",
+    "url": "https://github.com/eustasy/eustasy.org/pull/22"
+  },
+  {
+    "type": "issue",
     "title": "Bump the gha-patching group across 15 directories with 2 updates",
     "repo": ".normal",
     "meta": "#98",
-    "time": "2h",
+    "time": "11h",
     "url": "https://github.com/eustasy/.normal/pull/98"
   },
   {
@@ -30,13 +38,5 @@
     "meta": "#54",
     "time": "4d",
     "url": "https://github.com/eustasy/apple-silicon/pull/54"
-  },
-  {
-    "type": "issue",
-    "title": "Bump the gha-patching group across 15 directories with 2 updates",
-    "repo": ".normal",
-    "meta": "#97",
-    "time": "6d",
-    "url": "https://github.com/eustasy/.normal/pull/97"
   }
 ]
