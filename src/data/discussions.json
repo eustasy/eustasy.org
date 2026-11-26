@@ -4,7 +4,7 @@
     "title": "Bump the bun-patching group with 66 updates",
     "repo": "eustasy.org",
     "meta": "#22",
-    "time": "1d",
+    "time": "2d",
     "url": "https://github.com/eustasy/eustasy.org/pull/22"
   },
   {
@@ -33,10 +33,10 @@
   },
   {
     "type": "issue",
-    "title": "Bump the npm-patching group with 10 updates",
-    "repo": "apple-silicon",
-    "meta": "#54",
-    "time": "6d",
-    "url": "https://github.com/eustasy/apple-silicon/pull/54"
+    "title": "Bump the npm-patching group in /server with 2 updates",
+    "repo": "flame",
+    "meta": "#20",
+    "time": "1w",
+    "url": "https://github.com/eustasy-archive/flame/pull/20"
   }
 ]
