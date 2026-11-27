@@ -4,7 +4,7 @@
     "title": "Upgrade: Bump pyyaml from 6.0.3 to 6.0.4 in /_generators in the pip-patching group",
     "repo": ".releases",
     "meta": "#19",
-    "time": "4h",
+    "time": "13h",
     "url": "https://github.com/eustasy/.releases/pull/19"
   },
   {
@@ -12,7 +12,7 @@
     "title": "Bump the npm-patching group with 14 updates",
     "repo": "apple-silicon",
     "meta": "#57",
-    "time": "8h",
+    "time": "18h",
     "url": "https://github.com/eustasy/apple-silicon/pull/57"
   },
   {
