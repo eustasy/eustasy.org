@@ -1,10 +1,18 @@
 [
   {
     "type": "issue",
+    "title": "Upgrade: Bump pyyaml from 6.0.3 to 6.0.4 in /_generators in the pip-patching group",
+    "repo": ".releases",
+    "meta": "#19",
+    "time": "4h",
+    "url": "https://github.com/eustasy/.releases/pull/19"
+  },
+  {
+    "type": "issue",
     "title": "Bump the npm-patching group with 14 updates",
     "repo": "apple-silicon",
     "meta": "#57",
-    "time": "2h",
+    "time": "8h",
     "url": "https://github.com/eustasy/apple-silicon/pull/57"
   },
   {
@@ -12,7 +20,7 @@
     "title": "Bump the bun-patching group with 66 updates",
     "repo": "eustasy.org",
     "meta": "#22",
-    "time": "2d",
+    "time": "3d",
     "url": "https://github.com/eustasy/eustasy.org/pull/22"
   },
   {
@@ -22,14 +30,6 @@
     "meta": "#98",
     "time": "3d",
     "url": "https://github.com/eustasy/.normal/pull/98"
-  },
-  {
-    "type": "issue",
-    "title": "Bump brace-expansion from 1.1.21 to 1.1.22",
-    "repo": "apple-silicon",
-    "meta": "#56",
-    "time": "1w",
-    "url": "https://github.com/eustasy/apple-silicon/pull/56"
   },
   {
     "type": "issue",
