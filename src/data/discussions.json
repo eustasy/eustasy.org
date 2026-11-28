@@ -4,7 +4,7 @@
     "title": "Upgrade: Bump pyyaml from 6.0.3 to 6.0.4 in /_generators in the pip-patching group",
     "repo": ".releases",
     "meta": "#19",
-    "time": "22h",
+    "time": "1d",
     "url": "https://github.com/eustasy/.releases/pull/19"
   },
   {
@@ -20,7 +20,7 @@
     "title": "Bump the bun-patching group with 66 updates",
     "repo": "eustasy.org",
     "meta": "#22",
-    "time": "3d",
+    "time": "4d",
     "url": "https://github.com/eustasy/eustasy.org/pull/22"
   },
   {
@@ -36,7 +36,7 @@
     "title": "Bump the npm-patching group in /server with 2 updates",
     "repo": "flame",
     "meta": "#20",
-    "time": "1w",
+    "time": "2w",
     "url": "https://github.com/eustasy-archive/flame/pull/20"
   }
 ]
